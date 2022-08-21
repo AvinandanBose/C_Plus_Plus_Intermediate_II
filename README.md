@@ -12,5 +12,5 @@ Syntax:<dataType> arrayName[<arraySize>]
 <h2>Types of arrays:</h2>
 <ul>
 <h2> 1. One Dimensional Array </h2>
-<h3></h3>
+<h3> </h3>
 </ul>
