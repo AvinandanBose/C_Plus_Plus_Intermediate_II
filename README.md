@@ -6,7 +6,7 @@
 ```Syntax: 
 Syntax:<dataType> arrayName[<arraySize>]
 `````
-<h3> Example on Arrays </h3>
+<h2> Example on Arrays </h2>
 <ul>
   <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/arrays_1.cpp"> 1. Simple Example On Array</a> </strong></li>
 </ul>
