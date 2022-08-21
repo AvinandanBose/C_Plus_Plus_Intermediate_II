@@ -7,5 +7,5 @@
 Syntax:<dataType> arrayName[<arraySize>]
 `````
 <ul>
-  <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/arrays_1.cpp"> 1. Simple Example On Array</a> </strong></li>
+  <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/arrays_1.cpp"> Simple Example On Array As Per Above Definition</a> </strong></li>
 </ul>
