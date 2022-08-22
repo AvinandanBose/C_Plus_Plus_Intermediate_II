@@ -32,19 +32,19 @@ int main(){
  * arr[4] = 12 
  * 
  * i=0
- * if arr[0] = 11 < arr[ i =0] = 11 [false]
+ * if arr[0] = 11 < arr[ i=0] = 11 [false]
  * 
  * i=1
- * if arr[0] = 11< arr[ 1 ] = 123 [true]
+ * if arr[0] = 11< arr[ i=1 ] = 123 [true]
  *  : arr[0] = arr[1] = 123
  * 
  * i=2
- * if arr[0] = 123< arr[ 2] = 455 [true]
+ * if arr[0] = 123< arr[ i=2] = 455 [true]
  *      : arr[0] = arr[2] = 455
  * 
  * i=3
- * if arr[0] = 455< arr[ 3] = 56 [false]
+ * if arr[0] = 455< arr[ i=3] = 56 [false]
  * 
  * i=4
- * if arr[0] = 455< arr[ 4] = 12 [false]
+ * if arr[0] = 455< arr[ i=4] = 12 [false]
  * ****************************************************************
