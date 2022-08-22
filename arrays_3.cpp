@@ -36,7 +36,7 @@ int main(){
  * 
  * i=1
  * if arr[0] = 11< arr[ 1 ] = 123 [true]
- *  : arr[0] = arr[2] = 123
+ *  : arr[0] = arr[1] = 123
  * 
  * i=2
  * if arr[0] = 123< arr[ 2] = 455 [true]
