@@ -23,4 +23,7 @@ Each elements are accessed by their individual index values.</i>
 Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 `````
 <h3>As One Dimensional Array is expandible either row wise or column wise as we can project according to its array size(i.e. Single Directional) , hence to be called as : "Vector". A One-Dimensional Array is the simplest form of an Array in which the elements are stored linearly and can be accessed individually by specifying the index value of each element stored in the array.  </h3>
+<ul>
+  <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/arrays_3.cpp">1. Largest Element in an array</a> </strong></li>
+</ul>
 </ul>
