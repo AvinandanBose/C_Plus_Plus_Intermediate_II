@@ -2,8 +2,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-    long int size;  
-    int large_elem=0;
+    int size;  
     cout << "Enter an size of the array: " <<endl;
     cin >> size;
     int arr[size];
