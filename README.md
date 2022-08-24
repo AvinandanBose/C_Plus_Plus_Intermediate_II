@@ -23,7 +23,9 @@ Each elements are accessed by their individual index values.</i>
 Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 `````
 <h3>As One Dimensional Array is expandible either row wise or column wise as we can project according to its array size(i.e. Single Directional) , hence to be called as : "Vector". A One-Dimensional Array is the simplest form of an Array in which the elements are stored linearly and can be accessed individually by specifying the index value of each element stored in the array.  </h3>
-  
+<img src="https://user-images.githubusercontent.com/38869235/186314813-98da0217-08c2-4e48-8059-b02782fa350c.png">
+
+
 <h3><ins>Examples based on One-Dimensional Array</ins></h3>
 <ul>
   <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/arrays_3.cpp">1. Largest Element in an array</a> </strong></li>
@@ -43,4 +45,6 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
   
 `````
 <h3>Two Dimensional Array is structured in such a way that it takes first number of rows and then number of columns and store value accordingly in a physically adjacent memory location. It is also called as "Array of Arrays". One depict it as table like in Relational Database or like Matrix format to perform some mathematical operations.</h3>
+<img src="https://user-images.githubusercontent.com/38869235/186316166-6b8ec6ed-ce37-4852-860e-6ae11235b99f.png">
+
 </ul>
