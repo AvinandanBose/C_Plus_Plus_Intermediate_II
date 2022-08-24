@@ -46,6 +46,6 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
   
 `````
 <h3>Two Dimensional Array is structured in such a way that it takes first number of rows and then number of columns and store value accordingly in a physically adjacent memory location. It is also called as "Array of Arrays". One depict it as table like in Relational Database or like Matrix format to perform some mathematical operations.</h3>
-<img src="https://user-images.githubusercontent.com/38869235/186316166-6b8ec6ed-ce37-4852-860e-6ae11235b99f.png">
+<img src="https://user-images.githubusercontent.com/38869235/186323357-b8a92707-3da3-443b-bc4d-c26ba71d5797.png">
 
 </ul>
