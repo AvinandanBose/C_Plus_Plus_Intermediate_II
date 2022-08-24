@@ -35,4 +35,12 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
     <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/arrays_9.cpp">7. Transpose of a Row Vector is Column Vector</a> </strong></li>
      <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/arrays_10.cpp">8. Addition of two Row Matrices/Row Vectors and Column Matrices / Column Vectors</a> </strong></li>
 </ul>
+  <h2> 2. Two Dimensional Array </h2>
+  
+```Syntax: 
+  
+<dataType> arrayName[<row size>][<column size>]
+  
+`````
+<h3>Two Dimensional Array is structured in such a way that it takes first number of rows and then number of columns and store value accordingly in a physically adjacent memory location. It is also called as "Array of Arrays". One depict it as table like in Relational Database or like Matrix format to perform some mathematical operations.</h3>
 </ul>
