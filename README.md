@@ -50,7 +50,7 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 <h3><ins>Examples based on One-Dimensional Array</ins></h3>
 <ul>
   <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_1.cpp">1. Representation of 2D Array(Using List of Constants)</a> </strong></li>
- <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_2.cpp">1. Representation of 2D Array(User Input)</a> </strong></li>
+ <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_2.cpp">2. Representation of 2D Array(User Input)</a> </strong></li>
 </ul>
 
 </ul>
