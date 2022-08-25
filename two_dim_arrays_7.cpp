@@ -157,8 +157,8 @@ int main()
  * 
  *  elements of Rows of Matrix A  x elements of Columns of Matrix B  
  *  i.e., 
- *  |a11 of MatA x a11 of MatB + b11 of MatA * a22 of MatB   a11 of MatA x b11 of MatB + b11 of MatA * b22 of MatB|
- *  |a22 of MatA x a11 of MatB + b22 of MatA * a22 of MatB   a22 of MatA x b11 of MatB + b22 of MatA * b22 of MatB|
+ *  |a11 of MatA x a11 of MatB + b11 of MatA x a22 of MatB   a11 of MatA x b11 of MatB + b11 of MatA x b22 of MatB|
+ *  |a22 of MatA x a11 of MatB + b22 of MatA x a22 of MatB   a22 of MatA x b11 of MatB + b22 of MatA x b22 of MatB|
  *
  *  |mat1[0][0]*mat2[0][0]+mat1[0][1]*mat2[1][0]  mat1[0][0]*mat2[0][1]+mat1[0][1]*mat2[1][1]|
  *  |mat1[1][0]*mat2[0][0]+mat1[1][1]*mat2[1][0]  mat1[1][0]*mat2[0][1]+mat1[1][1]*mat2[1][1]|
