@@ -181,6 +181,9 @@ int main()
 
             cout << determinant << endl;
         }
+        else{
+            cout<<"Only Upto 3x3 matrix" << endl;
+        }
     }
     else
     {
