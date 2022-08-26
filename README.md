@@ -63,6 +63,7 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_12.cpp">12. Adjoint Matrix and Cofactor of 1x1 Matrix </a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_13.cpp">13. Adjoint Matrix and Cofactor of 2x2 Matrix </a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_14.cpp">14. Adjoint Matrix and Cofactor of 3x3 Matrix </a> </strong></li>
+<li> <strong> <a href="Print out the last digit entered in a 3x3 matrix also Display the same in a Matrix format">14. Adjoint Matrix and Cofactor of 3x3 Matrix </a> </strong></li>
 </ul>
 
 </ul>
