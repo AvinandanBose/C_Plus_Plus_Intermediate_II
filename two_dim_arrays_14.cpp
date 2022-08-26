@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 int main()
 {
@@ -385,18 +384,18 @@ int main()
             }
 
             cout << "\n";
-            cout << "The  cofactors => -1^(r+c) * det(Adj) where r=rows and c=columns" << endl;
+            cout << "The  cofactors  Initializations....." << endl;
             cout << "\n";
 
-            cofact[0][0] = pow(-1, (a + b)) * (sign[0][0] * (adj1[0][0] * adj1[1][1] - adj1[0][1] * adj1[1][0]));
-            cofact[0][1] = pow(-1, (a + b)) * (sign[0][1] * (adj2[0][0] * adj2[1][1] - adj2[0][1] * adj2[1][0]));
-            cofact[0][2] = pow(-1, (a + b)) * (sign[0][2] * (adj3[0][0] * adj3[1][1] - adj3[0][1] * adj3[1][0]));
-            cofact[1][0] = pow(-1, (a + b)) * (sign[1][0] * (adj4[0][0] * adj4[1][1] - adj4[0][1] * adj4[1][0]));
-            cofact[1][1] = pow(-1, (a + b)) * (sign[1][1] * (adj5[0][0] * adj5[1][1] - adj5[0][1] * adj5[1][0]));
-            cofact[1][2] = pow(-1, (a + b)) * (sign[1][2] * (adj6[0][0] * adj6[1][1] - adj6[0][1] * adj6[1][0]));
-            cofact[2][0] = pow(-1, (a + b)) * (sign[2][0] * (adj7[0][0] * adj7[1][1] - adj7[0][1] * adj7[1][0]));
-            cofact[2][1] = pow(-1, (a + b)) * (sign[2][1] * (adj8[0][0] * adj8[1][1] - adj8[0][1] * adj8[1][0]));
-            cofact[2][2] = pow(-1, (a + b)) * (sign[2][2] * (adj9[0][0] * adj9[1][1] - adj9[0][1] * adj9[1][0]));
+            cofact[0][0] =  (sign[0][0] * (adj1[0][0] * adj1[1][1] - adj1[0][1] * adj1[1][0]));
+            cofact[0][1] =  (sign[0][1] * (adj2[0][0] * adj2[1][1] - adj2[0][1] * adj2[1][0]));
+            cofact[0][2] = (sign[0][2] * (adj3[0][0] * adj3[1][1] - adj3[0][1] * adj3[1][0]));
+            cofact[1][0] =  (sign[1][0] * (adj4[0][0] * adj4[1][1] - adj4[0][1] * adj4[1][0]));
+            cofact[1][1] =  (sign[1][1] * (adj5[0][0] * adj5[1][1] - adj5[0][1] * adj5[1][0]));
+            cofact[1][2] =  (sign[1][2] * (adj6[0][0] * adj6[1][1] - adj6[0][1] * adj6[1][0]));
+            cofact[2][0] =  (sign[2][0] * (adj7[0][0] * adj7[1][1] - adj7[0][1] * adj7[1][0]));
+            cofact[2][1] =  (sign[2][1] * (adj8[0][0] * adj8[1][1] - adj8[0][1] * adj8[1][0]));
+            cofact[2][2] =  (sign[2][2] * (adj9[0][0] * adj9[1][1] - adj9[0][1] * adj9[1][0]));
 
             for (int i = 0; i < m; ++i)
             {
@@ -410,7 +409,7 @@ int main()
                 cout << endl;
             }
 
-            cout << "Transpose of Cofactor of  Matrix:" << endl;
+            cout << "Transpose of Cofactor of  Matrix = Adjoint Matrix:" << endl;
             for (int i = 0; i < m; i++)
             {
 

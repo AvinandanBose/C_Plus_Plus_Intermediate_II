@@ -10,7 +10,6 @@ int main()
     cin >> n;
     int mat[m][n];
     int sign[m][n];
-    int adj[m][n];
     int cofact[m][n];
     int transpose[m][n];
     if (m == n)
@@ -80,11 +79,9 @@ int main()
                 cout << endl;
             }
             cout << "\n";
-            cout << "Adjoint of (1x1) matrix is same as Matrix :" << endl;
-            adj[0][0] = mat[0][0];
-            cout << "[" << adj[0][0] << "]" << endl;
+            
             cout << "Cofactor Matrix of (1x1) matrix :" << endl;
-            cofact[0][0] = pow(-1, (m + n)) * (sign[0][0] * (adj[0][0]));
+            cofact[0][0] =  (sign[0][0] * (mat[0][0]));
             cout << "[" << cofact[0][0] << "]" << endl;
             cout << " Transpose of Cofactor matrix in  :(m x n) : initiating...." << endl;
             for (int i = 0; i < m; i++)
