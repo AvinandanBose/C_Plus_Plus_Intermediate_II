@@ -10,7 +10,7 @@ int main()
     int arraySize = sizeof(arr);
     int getArrayLength = sizeof(arr) / sizeof(arr[0]);
     cout << "Size of array is : " << arraySize << "bytes" << endl;
-    cout << "getArrayLength is : " << getArrayLength << "bytes" << endl;
+    cout << "getArrayLength is : " << getArrayLength << endl;
     cout << endl;
 
     return 0;
