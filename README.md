@@ -78,4 +78,6 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_20.cpp">2.Size and Length of an Array in (m xn) Square Matrix{1x1 , 2x2 , 3x3 etc....} [With Explanation]</a> </strong></li>
 
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_21.cpp">3.Size and Length of an Array in (m xn)  Matrix with Variable Rows and Columns {4x2, 4x3, 1x2 ....etc.} [With Explanation]</a> </strong></li>
+
 </ul>
