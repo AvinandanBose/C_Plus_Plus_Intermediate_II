@@ -72,7 +72,16 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 </ul>
 </ul>
 <h2> SizeOf() Operator in Arrays </h2>
-<h3> SizeOf() Operator in Arrays basically used to calculate size of an Array (in bytes) and Array's length i.e. number of Rows and Columns in a Matrix(Array). </h3>
+<h3> SizeOf() Operator in Arrays basically used to calculate size of an Array (in bytes) and Array's length i.e. number of Rows and Columns in a Matrix(Array). When it is sizeof(arr) → it becomes sizeof(int *) points to the array which have definite and adjacent rows and columns . When it is sizeof(arr_var[0]) → it becomes sizeof(int). For rows i.e. sizeof(arr_var[0]) it calculates  sizes of int(4) in columns and gives the result while only columns i.e sizeof(arr_var[0][0]), it calculates size of int(4) only in a single column i.e. constant 4 only and gives the result . For sizeof(arr) i.e. sizeof(int *) multiplies sizeof(int) i.e. 4 with number of rows and columns. While sizeof a pointer is always 8 bytes.   </h3>
+  
+```Syntax: 
+  
+Size of Array : sizeof(arr_var)
+Row Length : sizeof(arr_var) / sizeof(arr_var[0])
+Column Length : sizeof(arr_var[0]) / sizeof(arr_var[0][0]);  
+  
+`````
+  
 <ul>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/arrays_11.cpp">1.Size and Length of an Array in One Dimensional Matrix [With Explanation]</a> </strong></li>
 
