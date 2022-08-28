@@ -67,6 +67,8 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_9.cpp">16.Program to find second largest element in an 3x3 array[With Explanation]</a> </strong></li>
 
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_9.cpp">17.Program to find second smallest element in an 3x3 array[With Explanation]</a> </strong></li>
+
 </ul>
 
 </ul>
