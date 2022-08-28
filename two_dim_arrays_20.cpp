@@ -1,17 +1,16 @@
-//size of an array
-// int size = sizeof(mat) / sizeof(mat[0]);
-
+//size of an mxn array
 #include <iostream>
 using namespace std;
 int main()
 {
-    int m;
+    int m, n;
     cout << "Enter size of Matrix : " << endl;
-    cin >> m;
-    int arr[m];
-    int size = sizeof(arr) ;
+    cin >> m >> n;
+    int arr[m][n];
+    int size = sizeof(arr) / sizeof(arr[0]);
     cout << "Size of array is : " << size << endl;
-    cout << endl;
+    
+    return 0;
 }
 
 /*****************************
@@ -24,7 +23,7 @@ int main()
  * sizeof(arr) = 12 (4+4+4) [size of int = 4]/ or we can say 4*3
  * etc.......
  *
- * Similarly ,
+ *  Similarly ,
  * sizeof(arr[0]) = 4 [size of int = 4]
  * Hence size:
  * size = sizeof(arr) / sizeof(arr[0]);
