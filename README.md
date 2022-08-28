@@ -70,5 +70,12 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_9.cpp">17.Program to find second smallest element in an 3x3 array[With Explanation]</a> </strong></li>
 
 </ul>
+</ul>
+<h2> SizeOf() Operator in Arrays </h2>
+<h3> SizeOf() Operator in Arrays basically used to calculate Array's length (in bytes) and Array's length i.e. number of Rows and Columns in a Matrix(Array). </h3>
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/arrays_11.cpp">1.Size and Length of an Array in One Dimensional Matrix [With Explanation]</a> </strong></li>
+
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_9.cpp">2.Size and Length of an Array in (m xn) Square Matrix{1x1 , 2x2 , 3x3 etc....} [With Explanation]</a> </strong></li>
 
 </ul>
