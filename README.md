@@ -72,7 +72,7 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 </ul>
 </ul>
 <h2> SizeOf() Operator in Arrays </h2>
-<h3> SizeOf() Operator in Arrays basically used to calculate Array's length (in bytes) and Array's length i.e. number of Rows and Columns in a Matrix(Array). </h3>
+<h3> SizeOf() Operator in Arrays basically used to calculate size of an Array (in bytes) and Array's length i.e. number of Rows and Columns in a Matrix(Array). </h3>
 <ul>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/arrays_11.cpp">1.Size and Length of an Array in One Dimensional Matrix [With Explanation]</a> </strong></li>
 
