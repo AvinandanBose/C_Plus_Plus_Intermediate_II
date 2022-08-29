@@ -46,7 +46,7 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
   
 `````
 <h3>Two Dimensional Array is structured in such a way that it takes first number of rows and then number of columns and store value accordingly in a physically adjacent memory location. It is also called as "Array of Arrays". One may depict it as table like in Relational Database or like Matrix format to perform some mathematical operations.</h3>
-<img src="https://user-images.githubusercontent.com/38869235/186323357-b8a92707-3da3-443b-bc4d-c26ba71d5797.png">
+<img src="https://user-images.githubusercontent.com/38869235/186323357-b8a92707-3da3-443b-bc4d-c26ba71d5797.png" width=800, height=250>
 <h3><ins>Examples based on Two-Dimensional Array</ins></h3>
 <ul>
   <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_1.cpp">1. Representation of 2D Array(Using List of Constants)</a> </strong></li>
@@ -91,7 +91,7 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 3D array : <data_Type> <arrayName>[row size] [column size][no. of pages] 
   
 `````
-<img src="https://user-images.githubusercontent.com/38869235/187281319-3f3b8b9d-fe00-4574-947a-707d26440b3b.png" width=500, height= 200>
+<img src="https://user-images.githubusercontent.com/38869235/187281319-3f3b8b9d-fe00-4574-947a-707d26440b3b.png" width=1000, height= 350>
 <li><h3> And if we look into 'N' dimensional arrays then it constitues : </h3></li>
 
 ```Syntax: 
