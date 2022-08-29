@@ -73,8 +73,13 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_23.cpp">19.Program for Lower Triangular Matrix of Square Matrix(m x n)[With Explanation]</a> </strong></li>
 
+
+
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_24.cpp">20.Program Showing only Diagonal of a  Matrix(m x n)[With Explanation]</a> </strong></li>
+
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_25.cpp">21.Check whether a Matrix (m x n) is Sparse / not [With Explanation]</a> </strong></li>
 </ul>
+<h2> 3. Multi Dimensional Array </h2>
 </ul>
 <h2> SizeOf() Operator in Arrays </h2>
 <h3> SizeOf() Operator in Arrays basically used to calculate size of an Array (in bytes) and Array's length i.e. number of Rows and Columns in a Matrix(Array). When it is sizeof(arr) → it becomes sizeof(int *) points to the array which have definite and adjacent rows and columns . When it is sizeof(arr_var[0]) → it becomes sizeof(int). For rows i.e. sizeof(arr_var[0]) it calculates  sizes of int(4) in columns and gives the result while only columns i.e sizeof(arr_var[0][0]), it calculates size of int(4) only in a single column i.e. constant 4 only and gives the result . For sizeof(arr) i.e. sizeof(int *) multiplies sizeof(int) i.e. 4 with number of rows and columns. While sizeof a pointer is always 8 bytes.   </h3>
