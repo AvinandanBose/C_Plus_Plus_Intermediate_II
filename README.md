@@ -81,9 +81,10 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 </ul>
 <h2> 3. Multi Dimensional Array </h2>
 <ul>
+<li><h3>Known as 'N' - Dimensional.</h3></li>
 <li><h3>Some times Multidimensional reffered as array with more than two Dimension.</h3></li>
 <li><h3> In a matrix, the two dimensions are represented by rows and columns. </h3></li>
-<li><h3> But 2 Dimensional is a simpliest form of Multidimensional Array(More than One Dimension i.e. 1-D) </h3></li>
+<li><h3> But 2 Dimensional is a simpliest form of Multidimensional Array → i.e. it means More than One Dimension i.e. 1-D is N-Dimensional. </h3></li>
 <li><h3> In a 3-D array , It constitutes of size of rows , size of columns and no. of pages which hold these 2-D structures. </h3></li>
 
 ```Syntax: 
