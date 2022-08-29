@@ -69,6 +69,10 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_9.cpp">17.Program to find second smallest element in an 3x3 array[With Explanation]</a> </strong></li>
 
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_22.cpp">18.Program for Upper Triangular Matrix[With Explanation]</a> </strong></li>
+
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_23.cpp">18.Program for Lower Triangular Matrix[With Explanation]</a> </strong></li>
+
 </ul>
 </ul>
 <h2> SizeOf() Operator in Arrays </h2>
