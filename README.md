@@ -101,6 +101,11 @@ N-D array : <data_type> <array_name>[size1][size2]....[sizeN];
   
 `````
 
+<h2>Example of Multi-Dimensional Array </h2>
+<ul>
+<li><h3> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ThreeDimensionalArray.cpp">Three Dimensional(3-D) Array (p x m x n)</a> </strong> </h3></li>
+</ul>
+
 </ul>
 </ul>
 <h2> SizeOf() Operator in Arrays </h2>
