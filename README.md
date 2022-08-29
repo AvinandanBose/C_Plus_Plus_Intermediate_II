@@ -80,6 +80,27 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_25.cpp">21.Check whether a Matrix (m x n) is Sparse / not [With Explanation]</a> </strong></li>
 </ul>
 <h2> 3. Multi Dimensional Array </h2>
+<ul>
+<li><h3>Some times Multidimensional reffered as array with more than two Dimension.</h3></li>
+<li><h3> In a matrix, the two dimensions are represented by rows and columns. </h3></li>
+<li><h3> But 2 Dimensional is a simpliest form of Multidimensional Array(More than One Dimension i.e. 1-D) </h3></li>
+<li><h3> In a 3-D array , It constitutes of size of rows , size of columns and no. of pages which hold these 2-D structures. </h3></li>
+
+```Syntax: 
+  
+3D array : <data_Type> <arrayName>[row size] [column size][no. of pages] 
+  
+`````
+<img src="https://user-images.githubusercontent.com/38869235/187281319-3f3b8b9d-fe00-4574-947a-707d26440b3b.png" >
+<li><h3> And if we look into 'N' dimensional arrays then it constitues : </h3></li>
+
+```Syntax: 
+  
+N-D array : <data_type> <array_name>[size1][size2]....[sizeN];
+  
+`````
+
+</ul>
 </ul>
 <h2> SizeOf() Operator in Arrays </h2>
 <h3> SizeOf() Operator in Arrays basically used to calculate size of an Array (in bytes) and Array's length i.e. number of Rows and Columns in a Matrix(Array). When it is sizeof(arr) → it becomes sizeof(int *) points to the array which have definite and adjacent rows and columns . When it is sizeof(arr_var[0]) → it becomes sizeof(int). For rows i.e. sizeof(arr_var[0]) it calculates  sizes of int(4) in columns and gives the result while only columns i.e sizeof(arr_var[0][0]), it calculates size of int(4) only in a single column i.e. constant 4 only and gives the result . For sizeof(arr) i.e. sizeof(int *) multiplies sizeof(int) i.e. 4 with number of rows and columns. While sizeof a pointer is always 8 bytes.   </h3>
