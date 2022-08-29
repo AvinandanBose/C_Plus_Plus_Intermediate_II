@@ -91,7 +91,7 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 3D array : <data_Type> <arrayName>[row size] [column size][no. of pages] 
   
 `````
-<img src="https://user-images.githubusercontent.com/38869235/187281319-3f3b8b9d-fe00-4574-947a-707d26440b3b.png" >
+<img src="https://user-images.githubusercontent.com/38869235/187281319-3f3b8b9d-fe00-4574-947a-707d26440b3b.png" width=500, height= 200>
 <li><h3> And if we look into 'N' dimensional arrays then it constitues : </h3></li>
 
 ```Syntax: 
