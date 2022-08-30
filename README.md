@@ -142,28 +142,6 @@ Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNam
   
 Return :  return <arrayVarName>[Size of Array];
   
-Two Dimensional
---------------------------
-Function Declaration : <return_data_Type> functionName (<dataType1>[][],<dataType2>[][],......,<dataTypeN-1>[][],<dataTypeN>[][]);
-Function Definition :<return_data_Type> functionName (<dataType> <arrayVarName1> [][],<dataType> <arrayVarName2> [][],......,<dataType> <arrayVarNameN-1>[][],<dataType> <arrayVarNameN>[][]);
-Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNameN-1>,<arrayVarNameN>);
-  
- If any Array is returned from a function :
-  
-Return :  return <arrayVarName>[Row Size][Column Size];
-  
-Three Dimension
-----------------
-  
-Function Declaration : <return_data_Type> functionName (<dataType1>[][][],<dataType2>[][][],......,<dataTypeN-1>[][][],<dataTypeN>[][][]);
-Function Definition :<return_data_Type> functionName (<dataType> <arrayVarName1> [][][],<dataType> <arrayVarName2> [][][],......,<dataType> <arrayVarNameN-1>[][][],<dataType> <arrayVarNameN>[][][]);
-Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNameN-1>,<arrayVarNameN>);
-  
- If any Array is returned from a function :
-  
-Return :  return <arrayVarName>[Page Size][Row Size][Column Size];
-  
-...... etc.
   
 `````
 <ul>
