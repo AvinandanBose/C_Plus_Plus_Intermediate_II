@@ -140,7 +140,7 @@ Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNam
   
  If any Array is returned from a function :
   
-Return :  return <arrayVarName>[Size of Array]
+Return :  return <arrayVarName>[Size of Array];
   
 Two Dimensional
 --------------------------
@@ -150,7 +150,7 @@ Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNam
   
  If any Array is returned from a function :
   
-Return :  return <arrayVarName>[Row Size][Column Size]
+Return :  return <arrayVarName>[Row Size][Column Size];
   
 Three Dimension
 ----------------
@@ -161,7 +161,7 @@ Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNam
   
  If any Array is returned from a function :
   
-Return :  return <arrayVarName>[Page Size][Row Size][Column Size]
+Return :  return <arrayVarName>[Page Size][Row Size][Column Size];
   
 ...... etc.
   
