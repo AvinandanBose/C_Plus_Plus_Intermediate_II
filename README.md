@@ -129,6 +129,43 @@ Column Length : sizeof(arr_var[0]) / sizeof(arr_var[0][0]);
 </ul>
 
 <h1> Action of Functions in Array </h1>
+  
+```Syntax: 
+  
+One Dimensional
+--------------------------
+Function Declaration : <return_data_Type> functionName (<dataType1>[],<dataType2>[],......,<dataTypeN-1>[],<dataTypeN>[]);
+Function Definition :<return_data_Type> functionName (<dataType> <arrayVarName1> [],<dataType> <arrayVarName2> [],......,<dataType> <arrayVarNameN-1>[],<dataType> <arrayVarNameN>[]);
+Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNameN-1>,<arrayVarNameN>);
+  
+ If any Array is returned from a function :
+  
+Return :  return <arrayVarName>[Size of Array]
+  
+Two Dimensional
+--------------------------
+Function Declaration : <return_data_Type> functionName (<dataType1>[][],<dataType2>[][],......,<dataTypeN-1>[][],<dataTypeN>[][]);
+Function Definition :<return_data_Type> functionName (<dataType> <arrayVarName1> [][],<dataType> <arrayVarName2> [][],......,<dataType> <arrayVarNameN-1>[][],<dataType> <arrayVarNameN>[][]);
+Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNameN-1>,<arrayVarNameN>);
+  
+ If any Array is returned from a function :
+  
+Return :  return <arrayVarName>[Row Size][Column Size]
+  
+Three Dimension
+----------------
+  
+Function Declaration : <return_data_Type> functionName (<dataType1>[][][],<dataType2>[][][],......,<dataTypeN-1>[][][],<dataTypeN>[][][]);
+Function Definition :<return_data_Type> functionName (<dataType> <arrayVarName1> [][][],<dataType> <arrayVarName2> [][][],......,<dataType> <arrayVarNameN-1>[][][],<dataType> <arrayVarNameN>[][][]);
+Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNameN-1>,<arrayVarNameN>);
+  
+ If any Array is returned from a function :
+  
+Return :  return <arrayVarName>[Page Size][Row Size][Column Size]
+  
+...... etc.
+  
+`````
 <ul>
 <h2>Examples of Functions in Array</h2> 
 <ul>
