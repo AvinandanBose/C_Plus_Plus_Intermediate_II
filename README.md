@@ -1,5 +1,5 @@
 # C_Plus_Plus_Intermediate_II
-<h1>Arrays</h1>
+<h1>1. Arrays</h1>
 <h3>1.An Array is a group of logically related data items of same data types addressed by a common name .</h3>
 <h3>2.All items in array stored in contiguous (physically adjacent) memory locations. </h3>
 <h3>3.As array stored in contiguous(physically adjacent)memory location , we can traverse all the elements(data items) in single run , hence Arrays falls under 
@@ -108,7 +108,7 @@ N-D array : <data_type> <array_name>[size1][size2]....[sizeN];
 
 </ul>
 </ul>
-<h2> SizeOf() Operator in Arrays </h2>
+<h1> SizeOf() Operator in Arrays </h1>
 <h3> SizeOf() Operator in Arrays basically used to calculate size of an Array (in bytes) and Array's length i.e. number of Rows and Columns in a Matrix(Array). When it is sizeof(arr) → it becomes sizeof(int *) points to the array which have definite and adjacent rows and columns . When it is sizeof(arr_var[0]) → it becomes sizeof(int). For rows i.e. sizeof(arr_var[0]) it calculates  sizes of int(4) in columns and gives the result while only columns i.e sizeof(arr_var[0][0]), it calculates size of int(4) only in a single column i.e. constant 4 only and gives the result . For sizeof(arr) i.e. sizeof(int *) multiplies sizeof(int) i.e. 4 with number of rows and columns. While sizeof a pointer is always 8 bytes.   </h3>
   
 ```Syntax: 
@@ -126,4 +126,12 @@ Column Length : sizeof(arr_var[0]) / sizeof(arr_var[0][0]);
 
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_21.cpp">3.Size and Length of an Array in (m xn)  Matrix with Variable Rows and Columns {4x2, 4x3, 1x2 ....etc.} [With Explanation]</a> </strong></li>
 
+</ul>
+
+<h1> Action of Functions in Array </h1>
+<ul>
+<h2>Examples of Functions in Array</h2> 
+<ul>
+<li></li>
+</ul>
 </ul>
