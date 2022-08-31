@@ -226,3 +226,26 @@ Return :  return <arrayVarName>[No. of Page][size/value][size/value];
   
   
 `````
+
+<ul>
+<h2>Examples of Functions in 3-D Array</h2> 
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_6.cpp">1. 3D Array Passing in Parameters of Function [With constant value by 'define' Macro at Row Size and  Column Size]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_8.cpp">2. 3D Array Passing in Parameters of Function [With constant value by const Modifier at  Row Size and  Column Size]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_9.cpp">3. 3D Array Passing in Parameters of Function [With fixed Value in Row Size and  Column Size]</a> </strong></li>
+</ul>
+</ul>
+
+<h3> <ins><i>Note</i></ins> : <i> Though we make tables and represent Array as Row and Columns they are actuallly adjacent memory locations arranged one after the other as shown below:  </i></h3>
+
+<ul>
+<h3> <ins><i>1D- Array:</i></ins>
+<li><img src="https://user-images.githubusercontent.com/38869235/187766279-a5cddd11-fb07-4cab-85bf-ad5f9479f54c.jpg"  ></li>
+</ul>
+
+<ul>
+<h3> <ins><i>2D- Array:</i></ins>
+<li><img src="https://user-images.githubusercontent.com/38869235/187767574-205c2a43-03c8-49c0-ae2e-7c5ead376ce6.png"></li>
+</ul>
+
+<h3>Hence After passing 2-D and 3-D arrays in Function Parameter like : int arr[][] (2D)and int arr [] [] [](3D) , it can take 1st block of memory without its size mentioned but next adjacent blocks it asks user the size and the program cannot run without it . As it fail to refer the next adjacent chunk of memory wihtout knowing its size. It is a disadvantage as we cannot use the next memory as user defined during runtime and we have to make everytime the size constant during compilation. The above problem  can be solved using pointers and pointer arithmetic. </h3>
