@@ -150,3 +150,35 @@ Return :  return <arrayVarName>[Size of Array];
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_1.cpp">1.Addition of Every Elements of 1-D Array(Using Function) [With Explanation]</a> </strong></li>
 </ul>
 </ul>
+
+```Syntax: 
+  
+Two Dimensional
+--------------------------
+We have to declare the column size first:
+
+(with define macro)
+
+#define size value[value→Value are integers such as 1,2,3 , ....etc.]
+Function Declaration : <return_data_Type> functionName (<dataType1>[][value],<dataType2>[][value],......,<dataTypeN-1>[][value],<dataTypeN>[][value]);
+Function Definition :<return_data_Type> functionName (<dataType> <arrayVarName1> [][value],<dataType> <arrayVarName2> [][value],......,<dataType> <arrayVarNameN-1>[][value],<dataType> <arrayVarNameN>[][value]);
+Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNameN-1>,<arrayVarNameN>);
+  
+ If any Array is returned from a function :
+  
+Return :  return <arrayVarName>[Size of Row][value];
+
+(with const (constant) modifier)
+
+const int size = value; [value→Value are integers such as 1,2,3 , ....etc.]
+
+Function Declaration : <return_data_Type> functionName (<dataType1>[][value],<dataType2>[][value],......,<dataTypeN-1>[][value],<dataTypeN>[][value]);
+Function Definition :<return_data_Type> functionName (<dataType> <arrayVarName1> [][value],<dataType> <arrayVarName2> [][value],......,<dataType> <arrayVarNameN-1>[][value],<dataType> <arrayVarNameN>[][value]);
+Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNameN-1>,<arrayVarNameN>);
+  
+ If any Array is returned from a function :
+  
+Return :  return <arrayVarName>[Size of Row][value];
+  
+  
+`````
