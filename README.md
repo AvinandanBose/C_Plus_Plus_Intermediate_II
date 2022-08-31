@@ -95,7 +95,7 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 <img src="https://user-images.githubusercontent.com/38869235/187281319-3f3b8b9d-fe00-4574-947a-707d26440b3b.png" width=1000, height= 350>
 <li><h3> And if we look into 'N' dimensional arrays then it constitues : </h3></li>
 
-```Syntax: 
+```Syntax 
   
 N-D array : <data_type> <array_name>[size1][size2]....[sizeN];
   
@@ -111,7 +111,7 @@ N-D array : <data_type> <array_name>[size1][size2]....[sizeN];
 <h1> SizeOf() Operator in Arrays </h1>
 <h3> SizeOf() Operator in Arrays basically used to calculate size of an Array (in bytes) and Array's length i.e. number of Rows and Columns in a Matrix(Array). When it is sizeof(arr) → it becomes sizeof(int *) points to the array which have definite and adjacent rows and columns . When it is sizeof(arr_var[0]) → it becomes sizeof(int). For rows i.e. sizeof(arr_var[0]) it calculates  sizes of int(4) in columns and gives the result while only columns i.e sizeof(arr_var[0][0]), it calculates size of int(4) only in a single column i.e. constant 4 only and gives the result . For sizeof(arr) i.e. sizeof(int *) multiplies sizeof(int) i.e. 4 with number of rows and columns. While sizeof a pointer is always 8 bytes.   </h3>
   
-```Syntax: 
+```Syntax 
   
 Size of Array : sizeof(arr_var)
 Row Length : sizeof(arr_var) / sizeof(arr_var[0])
