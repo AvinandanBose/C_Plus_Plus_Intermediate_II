@@ -160,32 +160,35 @@ We have to declare the column size first:
 (with define macro)
 
 #define size value[value→Value are integers such as 1,2,3 , ....etc.]
-Function Declaration : <return_data_Type> functionName (<dataType1>[][value],<dataType2>[][value],......,<dataTypeN-1>[][value],<dataTypeN>[][value]);
-Function Definition :<return_data_Type> functionName (<dataType> <arrayVarName1> [][value],<dataType> <arrayVarName2> [][value],......,<dataType> <arrayVarNameN-1>[][value],<dataType> <arrayVarNameN>[][value]);
+  
+Function Declaration : <return_data_Type> functionName (<dataType1>[][size/value],<dataType2>[][size/value],......,<dataTypeN-1>[][size/value],<dataTypeN>[][size/value]);
+Function Definition :<return_data_Type> functionName (<dataType> <arrayVarName1> [][size/value],<dataType> <arrayVarName2> [][size/value],......,<dataType> <arrayVarNameN-1>[][size/value],<dataType> <arrayVarNameN>[][size/value]);
 Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNameN-1>,<arrayVarNameN>);
   
  If any Array is returned from a function :
   
-Return :  return <arrayVarName>[Size of Row][value];
+Return :  return <arrayVarName>[Size of Row][size/value];
 
 (with const (constant) modifier)
 
 const int size = value; [value→Value are integers such as 1,2,3 , ....etc.]
 
-Function Declaration : <return_data_Type> functionName (<dataType1>[][value],<dataType2>[][value],......,<dataTypeN-1>[][value],<dataTypeN>[][value]);
-Function Definition :<return_data_Type> functionName (<dataType> <arrayVarName1> [][value],<dataType> <arrayVarName2> [][value],......,<dataType> <arrayVarNameN-1>[][value],<dataType> <arrayVarNameN>[][value]);
+Function Declaration : <return_data_Type> functionName (<dataType1>[][size/value],<dataType2>[][size/value],......,<dataTypeN-1>[][size/value],<dataTypeN>[][size/value]);
+Function Definition :<return_data_Type> functionName (<dataType> <arrayVarName1> [][size/value],<dataType> <arrayVarName2> [][size/value],......,<dataType> <arrayVarNameN-1>[][size/value],<dataType> <arrayVarNameN>[][size/value]);
+  
 Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNameN-1>,<arrayVarNameN>);
   
  If any Array is returned from a function :
   
-Return :  return <arrayVarName>[Size of Row][value];
+Return :  return <arrayVarName>[Size of Row][size/value];
   
   
 `````
 <ul>
 <h2>Examples of Functions in 2-D Array</h2> 
 <ul>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_4.cpp">1. 2D Array Passing in Parameters of Function [With 'define' Macro]</a> </strong></li>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_5.cpp">2. 2D Array Passing in Parameters of Function [With const Modifier]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_4.cpp">1. 2D Array Passing in Parameters of Function [With constant value by 'define' Macro at  Column Size]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_5.cpp">2. 2D Array Passing in Parameters of Function [With constant value by const Modifier at  Column Size]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_7.cpp">3. 2D Array Passing in Parameters of Function [With fixed Value in Column Size]</a> </strong></li>
 </ul>
 </ul>
