@@ -209,7 +209,7 @@ Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNam
   
  If any Array is returned from a function :
   
-Return :  return <arrayVarName>[Size of Row][size/value][size/value];
+Return :  return <arrayVarName>[No. of Page][size/value][size/value];
 
 (with const (constant) modifier)
 
@@ -222,7 +222,7 @@ Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNam
   
  If any Array is returned from a function :
   
-Return :  return <arrayVarName>[Size of Row][size/value][size/value];
+Return :  return <arrayVarName>[No. of Page][size/value][size/value];
   
   
 `````
