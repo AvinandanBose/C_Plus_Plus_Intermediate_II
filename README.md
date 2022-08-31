@@ -5,7 +5,7 @@
 <h3>3.As array stored in contiguous(physically adjacent)memory location , we can traverse all the elements(data items) in single run , hence Arrays falls under 
 <ins>Linear Data Structure</ins>. </h3>
 
-```Syntax: 
+```Syntax 
 Syntax:<dataType> arrayName[<arraySize>]
 
 Note: ArraySize is the total indexes that Array can have data items / elements stored. 
@@ -20,7 +20,7 @@ Each elements are accessed by their individual index values.</i>
 <ul>
 <h2> 1. One Dimensional Array </h2>
 
-```Syntax: 
+```Syntax 
 Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 `````
 <h3>As One Dimensional Array is expandible either row wise or column wise as we can project according to its array size(i.e. Single Directional) , hence to be called as : "Vector". A One-Dimensional Array is the simplest form of an Array in which the elements are stored linearly and can be accessed individually by specifying the index value of each element stored in the array.  </h3>
@@ -40,7 +40,7 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 </ul>
   <h2> 2. Two Dimensional Array </h2>
   
-```Syntax: 
+```Syntax 
   
 <dataType> arrayName[<row size>][<column size>]
   
@@ -87,7 +87,7 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 <li><h3> But 2 Dimensional is a simpliest form of Multidimensional Array → i.e. it means More than One Dimension i.e. 1-D is N-Dimensional. </h3></li>
 <li><h3> In a 3-D array , It constitutes of size of rows , size of columns and no. of pages which hold these 2-D structures. </h3></li>
 
-```Syntax: 
+```Syntax 
   
 3D array : <data_Type> <arrayName>[no. of pages][row size] [column size] 
   
@@ -130,7 +130,7 @@ Column Length : sizeof(arr_var[0]) / sizeof(arr_var[0][0]);
 
 <h1> Action of Functions in Array </h1>
   
-```Syntax: 
+```Syntax 
   
 One Dimensional
 --------------------------
@@ -151,7 +151,7 @@ Return :  return <arrayVarName>[Size of Array];
 </ul>
 </ul>
 
-```Syntax: 
+```Syntax 
   
 Two Dimensional
 --------------------------
