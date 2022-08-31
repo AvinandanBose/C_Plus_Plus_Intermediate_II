@@ -192,3 +192,37 @@ Return :  return <arrayVarName>[Size of Row][size/value];
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_7.cpp">3. 2D Array Passing in Parameters of Function [With fixed Value in Column Size]</a> </strong></li>
 </ul>
 </ul>
+
+```Syntax
+  
+Three Dimensional
+--------------------------
+We have to declare both the column size and row size first:
+
+(with define macro)
+
+#define size value[value→Value are integers such as 1,2,3 , ....etc.]
+  
+Function Declaration : <return_data_Type> functionName (<dataType1>[][size/value][size/value],<dataType2>[][size/value][size/value],......,<dataTypeN-1>[][size/value][size/value],<dataTypeN>[][size/value][size/value]);
+Function Definition :<return_data_Type> functionName (<dataType> <arrayVarName1> [][size/value][size/value],<dataType> <arrayVarName2> [][size/value][size/value],......,<dataType> <arrayVarNameN-1>[][size/value][size/value],<dataType> <arrayVarNameN>[][size/value][size/value]);
+Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNameN-1>,<arrayVarNameN>);
+  
+ If any Array is returned from a function :
+  
+Return :  return <arrayVarName>[Size of Row][size/value][size/value];
+
+(with const (constant) modifier)
+
+const int size = value; [value→Value are integers such as 1,2,3 , ....etc.]
+
+Function Declaration : <return_data_Type> functionName (<dataType1>[][size/value][size/value],<dataType2>[][size/value][size/value],......,<dataTypeN-1>[][size/value][size/value],<dataTypeN>[][size/value][size/value]);
+Function Definition :<return_data_Type> functionName (<dataType> <arrayVarName1> [][size/value][size/value],<dataType> <arrayVarName2> [][size/value][size/value],......,<dataType> <arrayVarNameN-1>[][size/value][size/value],<dataType> <arrayVarNameN>[][size/value][size/value]);
+  
+Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNameN-1>,<arrayVarNameN>);
+  
+ If any Array is returned from a function :
+  
+Return :  return <arrayVarName>[Size of Row][size/value][size/value];
+  
+  
+`````
