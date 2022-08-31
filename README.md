@@ -182,3 +182,10 @@ Return :  return <arrayVarName>[Size of Row][value];
   
   
 `````
+<ul>
+<h2>Examples of Functions in 1-D Array</h2> 
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_4.cpp">1. 2D Array Passing in Parameters of Function [With 'define' Macro]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_5.cpp">2. 2D Array Passing in Parameters of Function [With const Modifier]</a> </strong></li>
+</ul>
+</ul>
