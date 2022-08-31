@@ -245,7 +245,7 @@ Return :  return <arrayVarName>[No. of Page][size/value][size/value];
 
 <ul>
 <h3> <ins><i>2D- Array:</i></ins>
-<li><img src="https://user-images.githubusercontent.com/38869235/187767574-205c2a43-03c8-49c0-ae2e-7c5ead376ce6.png"></li>
+<li><img src="https://user-images.githubusercontent.com/38869235/187767574-205c2a43-03c8-49c0-ae2e-7c5ead376ce6.png" width=700 height=300></li>
 </ul>
 
 <h3>Hence After passing 2-D and 3-D arrays in Function Parameter like : int arr[][] (2D)and int arr [] [] [](3D) , it can take 1st block of memory without its size mentioned but next adjacent blocks it asks user the size and the program cannot run without it . As it fail to refer the next adjacent chunk of memory wihtout knowing its size. It is a disadvantage as we cannot use the next memory as user defined during runtime and we have to make everytime the size constant during compilation. The above problem  can be solved using pointers and pointer arithmetic. </h3>
