@@ -145,7 +145,7 @@ Return :  return <arrayVarName>[Size of Array];
   
 `````
 <ul>
-<h2>Examples of Functions in Array</h2> 
+<h2>Examples of Functions in 1-D Array</h2> 
 <ul>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_1.cpp">1.Addition of Every Elements of 1-D Array(Using Function) [With Explanation]</a> </strong></li>
 </ul>
