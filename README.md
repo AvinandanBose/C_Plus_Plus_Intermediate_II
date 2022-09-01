@@ -216,7 +216,7 @@ Return :  return <arrayVarName>[No. of Page][size/value][size/value];
 const int size = value; [value→Value are integers such as 1,2,3 , ....etc.]
 
 Function Declaration : <return_data_Type> functionName (<dataType1>[][size/value][size/value],<dataType2>[][size/value][size/value],......,<dataTypeN-1>[][size/value][size/value],<dataTypeN>[][size/value][size/value]);
-Function Definition :<return_data_Type> functionName (<dataType> <arrayVarName1> [][size/value][size/value],<dataType> <arrayVarName2> [][size/value][size/value],......,<dataType> <arrayVarNameN-1>[][size/value][size/value],<dataType> <arrayVarNameN>[][size/value][size/value]);
+Function Definition :  <return_data_Type> functionName (<dataType> <arrayVarName1> [][size/value][size/value],<dataType> <arrayVarName2> [][size/value][size/value],......,<dataType> <arrayVarNameN-1>[][size/value][size/value],<dataType> <arrayVarNameN>[][size/value][size/value]);
   
 Function Call:   functionName(<arrayVarName1>,<arrayVarName2>,.....,<arrayVarNameN-1>,<arrayVarNameN>);
   
