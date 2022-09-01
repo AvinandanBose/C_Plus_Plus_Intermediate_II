@@ -101,3 +101,22 @@ int uniondistinct(int arr1[], int arr2[], int res[], int size, int size2)
     }
     return res[size2];
 }
+/****************************************************************
+ * Workings:
+ * if the elements are disticnt:
+ * As matrix is a square matrix :
+ * Resultant  matrix will have size*2( Size of A and Size of B )
+ * Say size of Matrix A and B is : 2.
+ * Union of Resultant matrix will have size*2( Size of A and Size of B )i.e. 4
+ * 1st Resultant will matrix will take :
+ * all the elements from matrix A.(0 to Size of A and B)) 
+ * i.e. Next 2 adjancent memory will be allocated with elements of Matrix B i.e. : 
+ * for(int i =2; i< 4; i++)
+ * {
+ *      res[i] = arr2[i-size];
+ *  i.e. res[2] = arr2[2-2] = arr2[0];
+ * res[3] = arr2[3-2] = arr2[1];
+ *     
+ * }
+  
+ * ********************/
