@@ -2,6 +2,7 @@
 #include <iostream>
 int input(int [], int,char);
 void display(int[], int ) ;
+int bubblesort(int[], int);
 bool checkdistinct(int[], int[], int);
 int uniondistinct(int[], int[], int[],  int, int);
 using namespace std;
@@ -17,10 +18,12 @@ int main(){
     char arr2 = 'b';
     cout<<"Enter the elements of 1st Matrix: "<< endl;
     input(a,size,arr1);
+    bubblesort(a,size);
     cout << "Displaying the first Matrix: "<< endl;
     display(a,size);
     cout << "Enter the elements of 2nd Matrix: " << endl;
     input(b, size, arr2);
+    bubblesort(b, size);
     cout << "Displaying the 2nd Matrix: " << endl;
     display(b, size);
 
@@ -88,6 +91,22 @@ bool checkdistinct(int a[], int b[], int size)
     }
 }
 
+int bubblesort(int arr[],int size){
+
+    for (int i = 0; i < size; i++)
+    {
+        for (int j = i+1; j < size; j++)
+        {
+            if (arr[i] > arr[j])
+            {
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+    return arr[size];
+}
 int uniondistinct(int arr1[], int arr2[], int res[], int size, int size2)
 {
 
