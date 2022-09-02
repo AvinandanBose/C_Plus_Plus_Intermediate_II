@@ -151,7 +151,7 @@ Return :  return <arrayVarName>[Size of Array];
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_10.cpp">2.Checking 2 arrays(Square Matrix) have Unique and Distinct elements(Using Function) </a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_11.cpp">3.Union of 2 Distinct Arrays(Square Matrix)[i.e Intersection Elements are not Present] using Bubble Sorting [With Explanation](Using Function)</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_12.cpp">4.Union of 2 Arrays(Square Matrix)[When Arrays are not Distrinct i.e. Intersection Elements are Present] using Bubble Sorting [With Explanation](Using Function)</a> </strong></li>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_12.cpp">5.Intersection Between Two Arrays in a Sqaure Matrix (Using Function)</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_13.cpp">5.Intersection Between Two Arrays in a Sqaure Matrix (Using Function)</a> </strong></li>
 </ul>
 </ul>
 
