@@ -148,6 +148,7 @@ Return :  return <arrayVarName>[Size of Array];
 <h2>Examples of Functions in 1-D Array</h2> 
 <ul>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_1.cpp">1.Addition of Every Elements of 1-D Array(Using Function) [With Explanation]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_13.cpp">2.Largest Element in an Array(Using Function) [With Explanation]</a> </strong></li>
 <h3><ins>EXTRAS</ins></h3>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_10.cpp">1.Checking 2 arrays(Square Matrix) have Unique and Distinct elements(Using Function) </a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_11.cpp">2.Union of 2 Distinct Arrays(Square Matrix)[i.e Intersection Elements are not Present] using Bubble Sorting [With Explanation](Using Function)</a> </strong></li>
