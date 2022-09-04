@@ -154,6 +154,10 @@ Return :  return <arrayVarName>[Size of Array];
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_17.cpp">5.Multiplication of Two 1-D Arrays[Square Matrix](Using Function) </a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_18.cpp">6. Second Largest Element in 1-D Array(Using Function)[With Explanation] </a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_19.cpp">7. Second Smallest Element in 1-D Array(Using Function)[With Explanation] </a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_20.cpp">8. Display The Last in 1-D Array Through Array Traversal Technique(Using Function)[With Explanation] </a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_21.cpp">9. Insert An Element From Last Index In An Array(Using Function)[With Explanation] </a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_22.cpp">10. Insert An Element From First Index In An Array(Using Function)[With Explanation] </a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_23.cpp">11. Insert An Element From Any Positional Index In An Array(Using Function)[With Explanation] </a> </strong></li>
 <h3><ins>EXTRAS</ins></h3>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_10.cpp">1.Checking 2 arrays(Square Matrix) have Unique and Distinct elements(Using Function) </a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_11.cpp">2.Union of 2 Distinct Arrays(Square Matrix)[i.e Intersection Elements are not Present] using Bubble Sorting [With Explanation](Using Function)</a> </strong></li>
