@@ -65,9 +65,9 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_14.cpp">14. Adjoint Matrix and Cofactor of 3x3 Matrix </a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_15.cpp">15.Print out the last digit entered in a 3x3 matrix also Display the same in a Matrix format , through Traversal </a> </strong></li>
 
-<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_9.cpp">16.Program to find second largest element in an 3x3 array[With Explanation]</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_18.cpp">16.Program to find second largest element in an 3x3 array[With Explanation]</a> </strong></li>
 
-<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_9.cpp">17.Program to find second smallest element in an 3x3 array[With Explanation]</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_19.cpp">17.Program to find second smallest element in an 3x3 array[With Explanation]</a> </strong></li>
 
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/two_dim_arrays_22.cpp">18.Program for Upper Triangular Matrix of Square Matrix(m x n)[With Explanation]</a> </strong></li>
 
