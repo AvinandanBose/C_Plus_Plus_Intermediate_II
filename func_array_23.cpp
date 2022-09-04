@@ -1,11 +1,11 @@
 #include <iostream>
 int input(int[], int);
 void display(int[], int);
-void enterAnElementFromLastIndex(int [], int , int ) ;
+void enterAnElementFromAnyPos(int[], int, int);
 using namespace std;
 int main()
 {
-    int m,n;
+    int m, n;
     cout << "Enter the size of the  array: ";
     cin >> m;
     int a[m];
@@ -14,8 +14,7 @@ int main()
     input(a, size);
     cout << "Displaying the  Matrix: " << endl;
     display(a, size);
-    enterAnElementFromLastIndex(a, size, n);
-  
+    enterAnElementFromAnyPos(a, size, n);
 
     return 0;
 }
@@ -39,23 +38,30 @@ void display(int a[], int size)
     cout << "]";
     cout << endl;
 }
-void enterAnElementFromLastIndex(int array[], int size, int n)
+void enterAnElementFromAnyPos(int array[], int size, int n)
 {
-    Label :
-    cout << "1. Insert an element from last indext in the array"
+Label:
+    cout << "1. Insert an element in any position in the array"
          << "\n"
          << "2.Exit" << endl;
     cin >> n;
     switch (n)
     {
     case 1:
-        int value;
+        int pos, value;
+        
         cout << "Enter the value of the element: ";
         cin >> value;
+        cout << "Enter the position of the element: ";
+        cin >> pos;
         size = size + 1;
-        array[size - 1] = value;
+        for (int i = size - 1; i > pos; i--)
+        {
+            array[i] = array[i - 1];
+        }
+        array[pos] = value;
         cout << "Array after inserting the element: " << endl;
-        display(array, size);
+        display(array, size);                               
         goto Label;
         break;
     case 2:
@@ -64,20 +70,30 @@ void enterAnElementFromLastIndex(int array[], int size, int n)
     default:
         cout << "Invalid choice" << endl;
     }
-    
 }
 /******************************
  * Workings:
- * 1. Enter the size of the  array: 3
+ * --------------
+ * Enter the size of the  array: 3
  * a[0] = 1
  * a[1] = 2
  * a[2] = 3
  * Displaying the  Matrix:
  * [1 2 3 ]
- * 1. Insert an element from last indext in the array
- *                Enter the value of the element:4
- *                Size = Size+1 = 4
- *                array[Size-1 =3] = value = 4
- *               Array after inserting the element:
- *              [1 2 3 4 ]
+ * 1. Insert an element in any position in the array
+ *          Enter the value of the element: 4
+ *         Enter the position of the element: 2
+ *         Size = size + 1 = 4
+ *          for(i = (size - 1)=(4-1)= 3; i > pos (=2); i--)
+ *         {
+ *          array[i] = array[i - 1];
+ *              i.e. array[3] = 3 = array[3 - 1] = array[2]
+ *        }
+ *       Now the array is: "
+ *      [1 2 3 3 ]
+ *          Next: 
+ *              array[pos] = value;
+ *              i.e. array[2] = 4
+ *          Now the array is: 
+ *                      [1 2 4 3 ]
  * ********************/

@@ -48,7 +48,7 @@ Label:
     switch (n)
     {
     case 1:
-        int pos, value;
+        int  value;
         cout << "Enter the value of the element: ";
         cin >> value;
         size = size + 1;
@@ -68,3 +68,30 @@ Label:
         cout << "Invalid choice" << endl;
     }
 }
+/******************************
+ * Workings:
+ * --------------
+ * Enter the size of the  array: 3
+ * a[0] = 1
+ * a[1] = 2
+ * a[2] = 3
+ * Displaying the  Matrix:
+ * [1 2 3 ]
+ * 1. Insert an element in first index in the array
+ *          Enter the value of the element: 4
+ *         Size = size + 1 = 4
+ *          for(i = (size - 1)=(4-1)= 3; i > 0; i--)
+ *         {
+ *          array[i] = array[i - 1];
+ *              i.e. array[3]  = array[3 - 1] = array[2]=3
+ *             i.e. array[2]  = array[2 - 1] = array[1]=2
+ *            i.e. array[1]  = array[1 - 1] = array[0]=1
+ *        }
+ *       Now the array is: "
+ *      [garbagevalue 1 2 3 ]
+ *          Next:
+ *              array[0] = value;
+ *              i.e. array[0] = 4
+ *          Now the array is:
+ *                      [4 1 2 3 ]
+ * ********************/
