@@ -52,9 +52,15 @@ Label:
         cout << "Enter the value of the element: ";
         cin >> value;
         size = size + 1;
-        for (int i = size - 1; i > 0; i--)
+        for (int i = size - 1; i >= 0; i--)
         {
             array[i] = array[i - 1];
+            if(i == 0)
+            {
+                break;
+            }
+
+
         }
         array[0] = value;
         cout << "Array after inserting the element: " << endl;
@@ -80,12 +86,15 @@ Label:
  * 1. Insert an element in first index in the array
  *          Enter the value of the element: 4
  *         Size = size + 1 = 4
- *          for(i = (size - 1)=(4-1)= 3; i > 0; i--)
+ *          for(i = (size - 1)=(4-1)= 3; i >= 0; i--)
  *         {
  *          array[i] = array[i - 1];
  *              i.e. array[3]  = array[3 - 1] = array[2]=3
  *             i.e. array[2]  = array[2 - 1] = array[1]=2
  *            i.e. array[1]  = array[1 - 1] = array[0]=1
+ *                 if: i == 0
+ *                      i.e. It will happen :array[0]  = array[0 - 1] = array[-1]=0
+ *                      Hence, break;
  *        }
  *       Now the array is: "
  *      [garbagevalue 1 2 3 ]

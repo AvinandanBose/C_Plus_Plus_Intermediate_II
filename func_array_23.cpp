@@ -55,11 +55,13 @@ Label:
         cout << "Enter the position of the element: ";
         cin >> pos;
         size = size + 1;
-        for (int i = size - 1; i > pos; i--)
+        for (int i = size - 1; i >= pos; i--)
         {
             array[i] = array[i - 1];
         }
+        display(array, size);
         array[pos] = value;
+
         cout << "Array after inserting the element: " << endl;
         display(array, size);                               
         goto Label;
@@ -84,10 +86,11 @@ Label:
  *          Enter the value of the element: 4
  *         Enter the position of the element: 2
  *         Size = size + 1 = 4
- *          for(i = (size - 1)=(4-1)= 3; i > pos (=2); i--)
+ *          for(i = (size - 1)=(4-1)= 3; i >= pos (=2); i--)
  *         {
  *          array[i] = array[i - 1];
  *              i.e. array[3] = 3 = array[3 - 1] = array[2]
+ *             i.e. array[2] = 2 = array[2 - 1] = array[1]
  *        }
  *       Now the array is: "
  *      [1 2 3 3 ]
