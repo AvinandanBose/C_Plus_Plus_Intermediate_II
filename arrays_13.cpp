@@ -21,36 +21,43 @@ int main()
     }
     cout << "]";
     cout << endl;
-    Label:
-        cout << "1. Insert an element in first index in the array"
-             << "\n"
-             << "2.Exit" << endl;
-        cin >> options;
-        switch (options)
+Label:
+    cout << "1. Insert an element in first index in the array"
+         << "\n"
+         << "2.Exit" << endl;
+    cin >> options;
+    switch (options)
+    {
+    case 1:
+        cout << "Enter the value of the element: ";
+        cin >> value;
+        n = n + 1;
+        for (int i = n - 1; i >= 0; i--)
         {
-        case 1:
-            cout << "Enter the value of the element: ";
-            cin >> value;
-            n = n + 1;
-            for (int i = n-1; i >= 0; i--)
+            a[i] = a[i - 1];
+            if (i == 0)
             {
-                a[i] = a[i - 1];
-                if (i == 0)
-                {
-                    break;
-                }
+                break;
             }
-            a[0] = value;
-            cout << "Array after inserting the element: " << endl;
-            cout << "[";
-            for (int i = 0; i < n; i++)
-            {
-                cout << a[i] << " ";
-            }
-            cout << "]";
-            cout << endl;
-            goto Label;
-            return 0;
+        }
+        a[0] = value;
+        cout << "Array after inserting the element: " << endl;
+        cout << "[";
+        for (int i = 0; i < n; i++)
+        {
+            cout << a[i] << " ";
+        }
+        cout << "]";
+        cout << endl;
+        goto Label;
+        break;
+    case 2:
+        exit(0);
+        break;
+    default:
+        cout << "Invalid choice" << endl;
+
+        return 0;
     }
 }
 

@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    int n, value, pos,options;
+    int n, value, pos, options;
     cout << "Enter the size of the array: ";
     cin >> n;
     int a[n];
@@ -48,6 +48,13 @@ Label:
         cout << "]";
         cout << endl;
         goto Label;
+        break;
+    case 2:
+        exit(0);
+        break;
+    default:
+        cout << "Invalid choice" << endl;
+
         return 0;
     }
 }

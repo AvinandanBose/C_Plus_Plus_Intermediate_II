@@ -1,9 +1,9 @@
-//insert an element into the last index of an array 
+// insert an element into the last index of an array
 #include <iostream>
 using namespace std;
 int main()
 {
-    int n,value,options;
+    int n, value, options;
     cout << "Enter the size of the array: ";
     cin >> n;
     int a[n];
@@ -21,7 +21,7 @@ int main()
     }
     cout << "]";
     cout << endl;
-    Label:
+Label:
     cout << "1. Insert an element from last indext in the array"
          << "\n"
          << "2.Exit" << endl;
@@ -42,6 +42,13 @@ int main()
         cout << "]";
         cout << endl;
         goto Label;
+        break;
+    case 2:
+        exit(0);
+        break;
+    default:
+        cout << "Invalid choice" << endl;
+
         return 0;
     }
 }
