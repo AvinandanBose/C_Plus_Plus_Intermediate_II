@@ -1,4 +1,4 @@
-// Delete an element from first index of an array
+// Delete an element from Any Positional index of an array
 #include <iostream>
 using namespace std;
 int main()
@@ -22,7 +22,7 @@ int main()
     cout << "]";
     cout << endl;
 Label:
-    cout << "1. Delete an element from first index in the array"
+    cout << "1. Delete an element from any positional index in the array"
          << "\n"
          << "2.Exit" << endl;
     cin >> options;
