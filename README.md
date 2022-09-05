@@ -40,6 +40,9 @@ Syntax:<dataType> arrayName[<arraySize>→<Column Size/Row Size>]
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/arrays_12.cpp">9. Insert An Element Into The Last Index Of An Array[With Explanation]</a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/arrays_13.cpp">10. Insert An element Into The First Index Of An Array[With Explanation] </a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/arrays_14.cpp">11. Insert An Element Into Any Positional Index Of An Array[With Explanation] </a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/arrays_15.cpp">12. Delete An Element From Last Index Of An Array </a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/arrays_16.cpp">13. Delete An Element From First Index Of An Array[With Explanation] </a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/arrays_17.cpp">14. Delete An Element From Any Postional Index Of An Array[With Explanation] </a> </strong></li>
 </ul>
   <h2> 2. Two Dimensional Array </h2>
   
