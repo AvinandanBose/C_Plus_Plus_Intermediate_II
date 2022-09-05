@@ -174,7 +174,44 @@ Return :  return <arrayVarName>[Size of Array];
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_13.cpp">4.Intersection Between Two Arrays in a Sqaure Matrix (Using Function)</a> </strong></li>
 </ul>
 </ul>
+<h3> <ins><i>Note</i></ins> : <i> Its not necessary that if swapping or any other functional action done inside function, we have to return array with its size i.e. array[size], We can also return its size only.</i></h3>
+  
+```Syntax
+  
+int swapping(int array[], int size){
+ int pos1, pos2;
+ cout << "Enter the position of the first element: ";
+ cin >> pos1;
+ cout << "Enter the position of the second element: ";
+  cin >> pos2;
+  int temp = array[pos1];
+  array[pos1] = array[pos2];
+  array[pos2] = temp;
+  
+  return a[size];                        
+}
 
+Not necessary we return a[size] :
+                           
+int swapping(int array[], int size){
+ int pos1, pos2;
+ cout << "Enter the position of the first element: ";
+ cin >> pos1;
+ cout << "Enter the position of the second element: ";
+ cin >> pos2;
+ int temp = array[pos1];
+ array[pos1] = array[pos2];
+ array[pos2] = temp;
+  
+  return size;                        
+} 
+  
+Already Swapping Conducted under the body of the function;  
+`````  
+<h3>That is we can return anything but if swapping or assignment or any other functional actions is done with the array its already gets applied to the array under the body of function and we can get the swapped array if we dispaly it.</i></h3>
+<br>
+  
+  
 ```Syntax 
   
 Two Dimensional
