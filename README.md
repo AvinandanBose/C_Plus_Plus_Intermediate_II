@@ -210,7 +210,14 @@ Already Swapping Conducted under the body of the function;
 `````  
 <h3>That is we can return anything but if swapping or assignment or any other functional actions is done with the array its already gets applied to the array under the body of function and we can get the swapped array if we dispaly it.</i></h3>
 <br>
+<br>
+
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_27.cpp">Example of the above note.</a> </strong></li>
+</ul>
   
+<br>
+<br>
   
 ```Syntax 
   
