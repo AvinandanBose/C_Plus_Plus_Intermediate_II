@@ -97,7 +97,7 @@ Label:
  *                      Hence, break;
  *        }
  *       Now the array is: "
- *      [garbagevalue 1 2 3 ]
+ *      [1 1 2 3 ] as a[0] is already 1
  *          Next:
  *              array[0] = value;
  *              i.e. array[0] = 4
