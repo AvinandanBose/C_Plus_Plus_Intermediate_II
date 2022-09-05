@@ -307,15 +307,15 @@ Return :  return <arrayVarName>[No. of Page][size/value][size/value];
 <h3> <ins><i>Note</i></ins> : <i> Though we make tables and represent Array as Row and Columns they are actuallly adjacent memory locations arranged one after the other as shown below:  </i></h3>
 
 <ul>
-<h3> <ins><i>1D- Array:</i></ins>
+<h3> <ins><i>1D- Array:</i></ins></h3>
 <li><img src="https://user-images.githubusercontent.com/38869235/187766279-a5cddd11-fb07-4cab-85bf-ad5f9479f54c.jpg"  ></li>
 </ul>
 
 <ul>
-<h3> <ins><i>2D- Array:</i></ins>
+<h3> <ins><i>2D- Array:</i></ins></h3>
 <li><img src="https://user-images.githubusercontent.com/38869235/187767574-205c2a43-03c8-49c0-ae2e-7c5ead376ce6.png" width=700 height=300></li>
 </ul>
 
-<h3>Hence After passing 2-D and 3-D arrays in Function Parameter like : int arr[][] (2D)and int arr [] [] [](3D) , it can take 1st block of memory without its size mentioned but next adjacent blocks it asks user the size and the program cannot run without it . As it fail to refer the next adjacent chunk of memory without knowing its size. It is a disadvantage as we cannot use the next memory as user defined during runtime and we have to make everytime the size constant during compilation. The above problem  can be solved using pointers and pointer arithmetic. </h3>
+<h3><i>Hence After passing 2-D and 3-D arrays in Function Parameter like : int arr[][] (2D)and int arr [] [] [](3D) , it can take 1st block of memory without its size mentioned but next adjacent blocks it asks user the size and the program cannot run without it . As it fail to refer the next adjacent chunk of memory without knowing its size. It is a disadvantage as we cannot use the next memory as user defined during runtime and we have to make everytime the size constant during compilation. The above problem  can be solved using pointers and pointer arithmetic. </i></h3>
   
 <h1>Recursive Function in Array</h1>
