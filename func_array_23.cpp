@@ -59,9 +59,7 @@ Label:
         {
             array[i] = array[i - 1];
         }
-        display(array, size);
         array[pos] = value;
-
         cout << "Array after inserting the element: " << endl;
         display(array, size);                               
         goto Label;
