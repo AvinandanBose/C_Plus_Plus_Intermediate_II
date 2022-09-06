@@ -317,5 +317,51 @@ Return :  return <arrayVarName>[No. of Page][size/value][size/value];
 </ul>
 
 <h3><i>Hence After passing 2-D and 3-D arrays in Function Parameter like : int arr[][] (2D)and int arr [] [] [](3D) , it can take 1st block of memory without its size mentioned but next adjacent blocks it asks user the size and the program cannot run without it . As it fail to refer the next adjacent chunk of memory without knowing its size. It is a disadvantage as we cannot use the next memory as user defined during runtime and we have to make everytime the size constant during compilation. The above problem  can be solved using pointers and pointer arithmetic. </i></h3>
+
+<h1>NULL POINTER in Array</h1>
+<h3>NULL is defined as Zero . Such as in character '\0' is Null character i.e. it is present at the end of array of character whose value is 0. </h3> 
+
+```Syntax
+
+int size=1 , *ptr;
+size = size - 1; // i.e. 0 now
+ptr = &size;
+if(*ptr == NULL){
+exit(0);
+}
+
+```
+<h3> Similar example is presented below :</h3>
+
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/NullPointer.cpp">1. NULL POINTER EXAMPLE</a> </strong></li>
+<ul>
+<h3><i> <ins> Note:</ins> The above will generate a warning i.e. NULL used in arithmetic . The warning can be removed by providing zero. </i></h3>
+
+```Syntax
+
+int size=1 , *ptr;
+size = size - 1; // i.e. 0 now
+ptr = &size;
+if(*ptr == 0){
+exit(0);
+}
+
+```
+<h3><i> <ins>Or</ins></i></h3>
+
+```Syntax
+
+int size=1 , *ptr;
+size = size - 1; // i.e. 0 now
+ptr = &size;
+if(ptr == NULL){
+exit(0);
+}
+
+```
+<h3><i> <ins> Hence:</ins> The warning occurs as NULL checks the address of pointer variable ptr is zero and whenever we try to return a value through reference of address it gives a warning as it want a address not a value . We can continue with the warning. </i></h3>
+</ul>
+</ul>
   
 <h1>Recursive Function in Array</h1>
