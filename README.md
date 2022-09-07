@@ -365,3 +365,6 @@ exit(0);
 </ul>
   
 <h1>Recursive Function in Array</h1>
+<ul>
+<h2>Recursive Function in 1D Array </h2>
+</ul>
