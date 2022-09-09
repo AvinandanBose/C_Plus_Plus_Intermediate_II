@@ -72,7 +72,7 @@ int multiply(int a[], int b[], int result[], int size)
         temp=temp/10;
         count++;
     }
-    cout <<temp<< endl;
+    
     result[temp] = sum;
     return temp+1; 
 }
