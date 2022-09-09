@@ -369,6 +369,7 @@ exit(0);
 <h2>Recursive 1D Array </h2>
 <ul>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_1.cpp">1. Sum Of All Elements Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_2.cpp">2. Factorial Of All Elements Of An Array(Type 1) [Through Recursion of Array/Recursive Array][with Explanation]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_2.cpp">2. Factorial Of All Elements Of An Array [Through Recursion of Array/Recursive Array][with Explanation]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_3.cpp">3. Matrix Multiplication of 1D array  [Through Recursion of Array/Recursive Array][with Explanation]</a> </strong></li>
 </ul>
 </ul>
