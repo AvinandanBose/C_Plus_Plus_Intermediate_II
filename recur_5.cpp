@@ -72,4 +72,36 @@ int add(int a[], int b[], int result[], int size)
     }
 
     return result[size];
+
 }
+/******************************
+ * Workings
+ * Let size =3
+ * a[0] = 1
+ * a[1] = 2
+ * a[2] = 3
+ *
+ * b[0] = 4
+ * b[1] = 5
+ * b[2] = 6
+ *
+ * Now in Recursion:
+ *
+ * result[size-1 => 3-1 = 2] = a[size-1 => 3-1 = 2] + b[size-1 => 3-1 = 2] = 3 + 6 = 9
+ * 
+ *
+ * result[size-1 => 2-1 = 1] = a[size-1 => 2-1 = 1] + b[size-1 => 2-1 = 1] = 2 + 5 = 7
+ * 
+ * result[size-1 => 1-1 = 0] = a[size-1 => 1-1 = 0] + b[size-1 => 1-1 = 0] = 1 + 4 = 5
+ * 
+ * Now the recursion will end and the result will be:
+ * result[0] = 5
+ * result[1] = 7
+ * result[2] = 9
+ *
+ *
+ *
+ *
+ *
+ *
+ * *******************************/
