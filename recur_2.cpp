@@ -148,19 +148,70 @@ int fact(int arr[], int size)
  *
  * And it goes on ......
  *
- * if(a[0]>1){
+ * if we have:
+ * a[0] = 1
+ * a[1] = 2
+ * a[2] = 3
+ * a[3] = 4
+ * Hence(a[0]>0){
  * for(i = 0 ; i < 4; i++){
- * 
- * 
- *  }
+ *
+ * int n = a[0] =1;
+ * res[0] = fact(0, n-1 = 1-1 =0);
+ *
+ * fact(a[] , size=0){
+ *          As size=0 ; return 1;
  *
  * }
  *
+ * Hence in Stack:
+ * 1 (Push)
+ * ----         => 1(pop)
+ * Hence, res[0] = 1;
  *
- *
- *
+ * Next,
+ * int n = a[1] =2;
+ *res[1] = fact(1, n-1 = 2-1 =1);
+ *           fact(a[] , size=1){
+ *         return arr[1] * fact(arr, 1-1 =0); i.e. [1*1 =1]  => Pushed into the stack
+ *        Next: size = 0;
+ *       return 1; // base condition ends the recursion
  * }
+ * Hence in Stack:
+ * 1 (Push)
+ * ----
+ * 1(Push)       => 1*1(pop)
+ * Hence, res[1] = 1;
  *
+ * etc.....
+ *
+ * Note: The factorial of the array elements is calculated in the order of the array elements.
+ * i.e. 0,1,2,3,4,5,6,7,8,9,10,....etc.(1st Condition)
+ *And,
+ * 1,2,3,4,5,6,7,8,9,10,....etc.(2nd Condition)
+ *
+ * Now, if it statrts with 2 i.e. 2,3,4,5,.....etc:
+ * then we would have :
+ * for (int i = 0; i < size; i++)
+            {
+                int n = arr[i];
+
+                res[i] = fact(arr, n - 2); // For array elements arranged in[1,2,3,... except 0]
+            }
+ *
+ *or,
+ if it statrts with 3 i.e. 3,4,5,6,.....etc:
+ *then we would have :
+ * for (int i = 0; i < size; i++)
+            {
+                int n = arr[i];
+
+                res[i] = fact(arr, n - 3); // For array elements arranged in[1,2,3,... except 0]
+            }
+ *
+ *
+ *
+ *Hence, it is just a example to show that how recursive Array works.
  *
  *
  *
