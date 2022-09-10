@@ -373,5 +373,11 @@ exit(0);
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_4.cpp">3. Matrix Multiplication of 1D array  [Through Recursion of Array/Recursive Array][with Explanation]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_5.cpp">4. Matrix Addition of 1D array  [Through Recursion of Array/Recursive Array][with Explanation]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_6.cpp">5. Matrix Subtraction of 1D array  [Through Recursion of Array/Recursive Array][with Explanation]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_7.cpp">6.Insert An Element Into The Last Index Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_8.cpp">7.Insert An element Into The First Index Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_9.cpp">8.Insert An Element Into Any Positional Index Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_10.cpp">9.Delete An Element From Last Index Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_11.cpp">10.Delete An Element From First Index Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_12.cpp">11.Delete An Element From Any Postional Index Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
 </ul>
 </ul>
