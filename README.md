@@ -364,7 +364,7 @@ exit(0);
 </ul>
 </ul>
   
-<h1>Recursive Array /Recursion in Array </h1>
+<h1>Recursive Array /Recursion Of Array </h1>
 <ul>
 <h2>Recursive 1D Array </h2>
 <ul>
