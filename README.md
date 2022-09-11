@@ -385,4 +385,7 @@ exit(0);
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_16.cpp">15.Smallest Element Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
 </ul>
 <h2>Recursive 2D Array </h2>
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur.cpp">1.Multiplication of 2D Arrays [Through Recursion of Array/Recursive Array][Explained in Details]</a> </strong></li>
+</ul>
 </ul>
