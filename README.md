@@ -379,6 +379,10 @@ exit(0);
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_10.cpp">9.Delete An Element From Last Index Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_11.cpp">10.Delete An Element From First Index Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_12.cpp">11.Delete An Element From Any Postional Index Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_13.cpp">12.Second Largest Element Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_14.cpp">13.Second Smallest Element Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_15.cpp">14.Largest Element Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_16.cpp">15.Smallest Element Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
 </ul>
 <h2>Recursive 2D Array </h2>
 </ul>
