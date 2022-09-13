@@ -1,4 +1,4 @@
-// Addition of 2D array through recursion
+// Subtraction of 2D array through recursion
 #include <iostream>
 void rules();
 int input(int[][10], int, int);
