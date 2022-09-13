@@ -388,5 +388,7 @@ exit(0);
 <ul>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur.cpp">1.Multiplication of 2D Arrays [Through Recursion of Array/Recursive Array][Explained in Details]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_1.cpp">2.Multiplication of Column Vector x Row Vector [(m x 1) x (1x n)] producing m x n matrix [Through Recursion of Array/Recursive Array][Explained in Details]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_2.cpp">3.Addition of 2D Matrix  [Through Recursion of Array/Recursive Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_3.cpp">4.Subtraction of 2D Matrix  [Through Recursion of Array/Recursive Array]</a> </strong></li>
 </ul>
 </ul>
