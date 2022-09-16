@@ -128,8 +128,8 @@ int determinant(int array[][10], int rows, int columns)
  *          getCofactor(array, temp, 3, 3, 0, 0, 0, 0, 0, 0);
  *
  * getcofactor(array, temp, 3, 3, 0(p), 0(q), 0(i), 0(j), 0(s), 0(t)):
- *              if (i=0 < 2):
- *                 if (j=0 < 2):
+ *              if (i=0 < 3):
+ *                 if (j=0 < 3):
  *                    if (i != 0(p) && j != 0(q))[false as i=0 and j=0]:
  *
  *                   getCofactor(array, temp, 3, 3, 0(p), 0(q), 0(i), j=j+1=1, 0(s), 0(t));
