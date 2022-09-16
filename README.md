@@ -394,5 +394,6 @@ exit(0);
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_5.cpp">6.Determinants of Any Square Matrix using Cofactors[Through Recursion of Array/Recursive Array][Explained in Details]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_6.cpp">7.Creation Of Null Matrix[Through Recursion of Array/Recursive Array]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_7.cpp">8. Assigning Signs (+/-)of Square Matrix in (mxn) Format[Through Recursion of Array/Recursive Array]</a> </strong></li>
+ <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_8.cpp">9.Transpose of a 2D Matrix[Through Recursion of Array/Recursive Array]</a> </strong></li> 
 </ul>
 </ul>
