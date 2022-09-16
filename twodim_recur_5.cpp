@@ -378,7 +378,7 @@ int determinant(int array[][10], int rows, int columns)
  * det = 0 + (1 * 1 * 3);
  * det = 3;
  *
- *
+ *This will continue till the end
  *
  *
  *
