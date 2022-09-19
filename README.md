@@ -410,7 +410,7 @@ exit(0);
 </ul>
 <li><strong> 18. <ins>Displaying Lower Triangular Matrix  [Through Recursion of Array/Recursive Array] </ins> </strong></li>
  <ul>
-  <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_18.cpp">18.A. Displaying Lower Triangular Matrix [Arrangement of Recursion Logic Type 1 ]</a> </strong></li>
+ <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_18.cpp">18.A. Displaying Lower Triangular Matrix   [Arrangement of Recursion Logic Type 1 ]</a> </strong></li>
   <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_19.cpp">18.B. Displaying Lower Triangular Matrix [Arrangement of Recursion Logic Type 2 ]</a> </strong></li>
   <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_20.cpp">18.C. Displaying Lower Triangular Matrix [Arrangement of Recursion Logic Type 3 ]</a> </strong></li>
 </ul>
@@ -420,5 +420,6 @@ exit(0);
   <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_22.cpp">19.B. Displaying Diagonal of a 2D Square Matrix [Arrangement of Recursion Logic Type 2 ]</a> </strong></li>
   <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_23.cpp">19.C. Displaying Diagonal of a 2D Square Matrix [Arrangement of Recursion Logic Type 3 ]</a> </strong></li>
 </ul>
+ <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_24.cpp">20. Checking A Matrix Is Sparse Or Not [Through Recursion of Array/Recursive Array] </a> </strong></li>
 </ul>
 </ul>
