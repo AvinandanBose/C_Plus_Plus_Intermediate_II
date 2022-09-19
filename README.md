@@ -383,6 +383,7 @@ exit(0);
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_14.cpp">13.Second Smallest Element Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_15.cpp">14.Largest Element Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_16.cpp">15.Smallest Element Of An Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/recur_17.cpp">16.Displaying 1D Array in Reverse Order [Through Recursion of Array/Recursive Array]</a> </strong></li>
 </ul>
 <h2>Recursive 2D Array </h2>
 <ul>
@@ -425,6 +426,7 @@ exit(0);
 </ul>
  <br>
  <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_24.cpp">20. Checking A Matrix Is Sparse Or Not [Through Recursion of Array/Recursive Array] </a> </strong></li>
+ <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_25.cpp">21. Displaying 2D Matrix in Reverse Order [Through Recursion of Array/Recursive Array] </a> </strong></li>
 </ul>
 </ul>
 <h2> Note : </h2>
