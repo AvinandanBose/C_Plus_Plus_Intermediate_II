@@ -386,17 +386,17 @@ exit(0);
 </ul>
 <h2>Recursive 2D Array </h2>
 <ul>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur.cpp">1.Multiplication of 2D Arrays [Through Recursion of Array/Recursive Array][Explained in Details]</a> </strong></li>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_1.cpp">2.Multiplication of Column Vector x Row Vector [(m x 1) x (1x n)] producing m x n matrix [Through Recursion of Array/Recursive Array][Explained in Details]</a> </strong></li>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_2.cpp">3.Addition of 2D Matrix  [Through Recursion of Array/Recursive Array]</a> </strong></li>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_3.cpp">4.Subtraction of 2D Matrix  [Through Recursion of Array/Recursive Array]</a> </strong></li>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_4.cpp">5.Determinants upto 2x2 Square Matrix using Cofactors[Through Recursion of Array/Recursive Array][Explained in Details]</a> </strong></li>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_5.cpp">6.Determinants of Any Square Matrix using Cofactors[Through Recursion of Array/Recursive Array][Explained in Details]</a> </strong></li>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_6.cpp">7.Creation Of Null Matrix[Through Recursion of Array/Recursive Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur.cpp">1. Multiplication of 2D Arrays [Through Recursion of Array/Recursive Array][Explained in Details]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_1.cpp">2. Multiplication of Column Vector x Row Vector [(m x 1) x (1x n)] producing m x n matrix [Through Recursion of Array/Recursive Array][Explained in Details]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_2.cpp">3. Addition of 2D Matrix  [Through Recursion of Array/Recursive Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_3.cpp">4. Subtraction of 2D Matrix  [Through Recursion of Array/Recursive Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_4.cpp">5. Determinants upto 2x2 Square Matrix using Cofactors[Through Recursion of Array/Recursive Array][Explained in Details]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_5.cpp">6. Determinants of Any Square Matrix using Cofactors[Through Recursion of Array/Recursive Array][Explained in Details]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_6.cpp">7. Creation Of Null Matrix[Through Recursion of Array/Recursive Array]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_7.cpp">8. Assigning Signs (+/-)of Square Matrix in (mxn) Format[Through Recursion of Array/Recursive Array]</a> </strong></li>
- <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_8.cpp">9.Transpose of a 2D Matrix[Through Recursion of Array/Recursive Array]</a> </strong></li> 
- <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_9.cpp">10.Display All Cofactors Of A 2D Matrix[Through Recursion of Array/Recursive Array]</a> </strong></li> 
- <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_10.cpp">11.Adjoint Of Any Square 2D Matrix  [Through Recursion of Array/Recursive Array]</a> </strong></li>
+ <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_8.cpp">9. Transpose of a 2D Matrix[Through Recursion of Array/Recursive Array]</a> </strong></li> 
+ <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_9.cpp">10. Display All Cofactors Of A 2D Matrix[Through Recursion of Array/Recursive Array]</a> </strong></li> 
+ <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_10.cpp">11. Adjoint Of Any Square 2D Matrix  [Through Recursion of Array/Recursive Array]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_11.cpp">12.Inverse Of Any Square 2D Matrix  [Through Recursion of Array/Recursive Array]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_12.cpp">13. Find 2nd Largest Number in 2D Array{With Explainatory Note} [Through Recursion of Array/Recursive Array]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_13.cpp">14. Find 2nd Smallest Number in 2D Array{With Explainatory Note} [Through Recursion of Array/Recursive Array]</a> </strong></li>
