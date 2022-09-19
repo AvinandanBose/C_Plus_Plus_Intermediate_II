@@ -400,5 +400,7 @@ exit(0);
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_11.cpp">12.Inverse Of Any Square 2D Matrix  [Through Recursion of Array/Recursive Array]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_12.cpp">13. Find 2nd Largest Number in 2D Array{With Explainatory Note} [Through Recursion of Array/Recursive Array]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_13.cpp">14. Find 2nd Smallest Number in 2D Array{With Explainatory Note} [Through Recursion of Array/Recursive Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_14.cpp">15. Find Smallest Number in 2D Array{With Explainatory Note} [Through Recursion of Array/Recursive Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_15.cpp">16. Find Largest Number in 2D Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
 </ul>
 </ul>
