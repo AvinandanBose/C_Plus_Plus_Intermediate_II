@@ -402,5 +402,11 @@ exit(0);
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_13.cpp">14. Find 2nd Smallest Number in 2D Array{With Explainatory Note} [Through Recursion of Array/Recursive Array]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_14.cpp">15. Find Smallest Number in 2D Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_15.cpp">16. Find Largest Number in 2D Array [Through Recursion of Array/Recursive Array]</a> </strong></li>
+<li><strong> 17. <ins>Displaying Upper Triangle Matrix  [Through Recursion of Array/Recursive Array] </ins> </strong></li>
+<ul>
+  <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_15_1.cpp">17.A. Displaying Upper Triangle Matrix [Arrangement of Recursion Logic Type 1 ]</a> </strong></li>
+  <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_16.cpp">17.B. Displaying Upper Triangle Matrix [Arrangement of Recursion Logic Type 2 ]</a> </strong></li>
+  <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_17.cpp">17.C. Displaying Upper Triangle Matrix [Arrangement of Recursion Logic Type 3 ]</a> </strong></li>
+</ul>
 </ul>
 </ul>
