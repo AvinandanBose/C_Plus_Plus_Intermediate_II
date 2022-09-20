@@ -488,4 +488,4 @@ int func(int a ,  int i)
  Note : The Result will be 5 as the Loop only run its block .
 
 ```
-<h3>This is the basic difference of loop and recursive function. </h3>
+<h3>This is the basic difference between loop and recursive function. </h3>
