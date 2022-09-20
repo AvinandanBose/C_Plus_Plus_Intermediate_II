@@ -461,6 +461,8 @@ int func(int a ,  int i) //Function's Initial starting point.
  Note : The Result will be 0 only as function call starts from function's starting point.
 
 ```
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/example_1.cpp"> Example 1</a> </strong></li>
+
 <h3>While in Loop:</h3>
 
 ```Syntax
@@ -488,4 +490,6 @@ int func(int a ,  int i)
  Note : The Result will be 5 as the Loop only run its block .
 
 ```
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/example_2.cpp"> Example 2</a> </strong></li>
 <h3>This is the basic difference between loop and recursive function. </h3>
+
