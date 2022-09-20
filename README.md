@@ -429,4 +429,63 @@ exit(0);
  <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/twodim_recur_25.cpp">21. Displaying 2D Matrix in Reverse Order [Through Recursion of Array/Recursive Array] </a> </strong></li>
 </ul>
 </ul>
-<h3> <ins><i>Note</i></ins> : <i> Recursive call of a function starts from first initial starting point of function and ends till it reach the base case while in Loop , Loop starts from the starting condition of Loop and run till the condition ends(returns false by relational operators)  , hence inside Recursive function , we  focus only on condition rather assigning any other value inside the recursive function required for the desired output as when recursive function gets called , it again starts from first initial starting point of function, while in loop only loop block is focused which can run inside any function and we can assign any variable outside the loop block as per the condition to get the desired output. </i></h3
+<h3> <ins><i>Note</i></ins> : <i> Recursive call of a function starts from first initial starting point of function and ends till it reach the base case while in Loop , Loop starts from the starting condition of Loop and run till the condition ends(returns false by relational operators)  , hence inside Recursive function , we  focus only on condition rather assigning any other value inside the recursive function required for the desired output as when recursive function gets called , it again starts from first initial starting point of function, while in loop only loop block is focused which can run inside any function and we can assign any variable outside the loop block as per the condition to get the desired output. </i></h3>
+
+```Syntax
+
+Suppose:
+
+int main(){
+int a = 5;
+func( a, 0);
+
+}
+int func(int a ,  int i) //Function's Initial starting point.
+{
+    int count = 0;
+
+    //Base Condition
+
+      if(i==a){
+          return count;
+        }
+        
+        //Relational Condition and Iteration
+      if( i < a){
+            count++;
+            func(a, i+1);
+       }
+       
+ }
+ 
+ Note : The Result will be 0 only as function call starts from function's starting point.
+
+```
+<h3>While in Loop:</h3>
+
+```Syntax
+
+Suppose:
+
+int main(){
+int a = 5;
+func( a, 0);
+
+}
+int func(int a ,  int i) 
+{
+    int count = 0;
+
+    for(i =0 ;i < a; i++) //Starting of Loop
+    {
+        count = count +1;  //body of the loop and the loop block
+    }
+     
+     return count;
+       
+ }
+ 
+ Note : The Result will be 5 as the Loop only run its block .
+
+```
+<h3>This is the basic difference of loop and recursive function. </h3>
