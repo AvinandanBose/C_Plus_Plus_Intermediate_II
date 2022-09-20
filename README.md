@@ -493,3 +493,6 @@ int func(int a ,  int i)
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/example_2.cpp"> Example 2</a> </strong></li>
 <h3>This is the basic difference between loop and recursive function. </h3>
 
+<h1> Pointers To Array </h1>
+
+
