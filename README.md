@@ -515,14 +515,11 @@ For 1D Array :
     *(p+1)→ Points to 2nd index of an Array.
     *(p+2)→ Points to 3rd index of an Array.
     ....etc.
-    
-    int a[5] = {1,2,3,4,5};
-    int *p = a;
   
 For 2D Array :
 
-    int a[2][2][2] = {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};
-    int *p = (int *)a;
+    int a[2][2] = {{1, 2}, {3, 4}};
+    int *p = (int *)a;;
     
     Then:
     *p → Points to first index of an array. 
@@ -556,6 +553,45 @@ For 3D Array :
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_3.cpp"> Accessing Constant Elements of 1D Array (Without Assigning Pointer to Array) [Through Pointers]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_4.cpp"> Accessing Constant Elements of 2D Array (Without Assigning Pointer to Array) [Through Pointers]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_5.cpp"> Accessing Constant Elements of 3D Array (Without Assigning Pointer to Array) [Through Pointers]</a> </strong></li>
+<h3> <ins><i>Note:</i></ins> </h3>
+
+```Syntax
+
+For 1D Array :
+
+    int a[5] = {1,2,3,4,5};
+    
+    Then:
+    *a → Points to first index of an array. 
+    *(a+0)→ Also points to first index of an array.
+    *(a+1)→ Points to 2nd index of an Array.
+    *(a+2)→ Points to 3rd index of an Array.
+    ....etc.
+  
+For 2D Array :
+
+    int a[2][2] = {{1, 2}, {3, 4}};
+  
+    Then:
+     *(*a) → Points to first index of an array. 
+    *(*(a + 0)+0))→ Also points to first index of an array.
+    *(*(a + 0) + 1)→ Points to 2nd index of an Array.
+    *(*(a + 1) + 0)→ Points to 3rd index of an Array.
+    ....etc.
+
+For 3D Array :
+
+    int a[2][2][2] = {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};
+ 
+    Then:
+    *(*(*a)) → Points to first index of an array. 
+    *(*(*(a + 0) + 0) + 0)→ Also points to first index of an array.
+    *(*(*(a + 0) + 0) + 1)→ Points to 2nd index of an Array.
+   *(*(*(a + 0) + 1) + 0)→ Points to 3rd index of an Array.
+    ....etc.
+    
+```
+
 </ul>
 </ul>
 <ul>
