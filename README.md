@@ -497,9 +497,9 @@ int func(int a ,  int i)
 <ul>
 <h3>A. Pointers to fetch Constant Values of Arrays.(Assigning Pointer to Array)</h3>
 <ul>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray.cpp"> Accessing Constant Elements of 1D Array [Through Pointers]</a> </strong></li>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_1.cpp"> Accessing Constant Elements of 2D Array [Through Pointers]</a> </strong></li>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_2.cpp"> Accessing Constant Elements of 3D Array [Through Pointers]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray.cpp"> Accessing Constant Elements of 1D Array (Assigning Pointer to Array) [Through Pointers]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_1.cpp"> Accessing Constant Elements of 2D Array (Assigning Pointer to Array) [Through Pointers]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_2.cpp"> Accessing Constant Elements of 3D Array (Assigning Pointer to Array) [Through Pointers]</a> </strong></li>
 <h3> <ins><i>Note:</i></ins> </h3>
 
 ```Syntax
