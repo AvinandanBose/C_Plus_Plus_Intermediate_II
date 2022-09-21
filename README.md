@@ -493,6 +493,66 @@ int func(int a ,  int i)
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/example_2.cpp"> Example 2</a> </strong></li>
 <h3>This is the basic difference between loop and recursive function. </h3>
 
-<h1> Pointers To Array </h1>
+<h1> Pointers in Arrays </h1>
+<ul>
+<h3>A. Pointers to fetch Constant Values of Arrays.</h3>
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray.cpp"> Accessing Constant Elements of 1D Array [Through Pointers]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_1.cpp"> Accessing Constant Elements of 2D Array [Through Pointers]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_2.cpp"> Accessing Constant Elements of 3D Array [Through Pointers]</a> </strong></li>
+<h3> <ins><i>Note:</i></ins> </h3>
+
+```Syntax
+
+For 1D Array :
+
+    int a[5] = {1,2,3,4,5};
+    int *p = a;
+    
+    Then:
+    *p → Points to first index of an array. 
+    *(p+0)→ Also points to first index of an array.
+    *(p+1)→ Points to 2nd index of an Array.
+    *(p+2)→ Points to 3rd index of an Array.
+    ....etc.
+    
+    int a[5] = {1,2,3,4,5};
+    int *p = a;
+  
+For 2D Array :
+
+    int a[2][2][2] = {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};
+    int *p = (int *)a;
+    
+    Then:
+    *p → Points to first index of an array. 
+    *(p+0)→ Also points to first index of an array.
+    *(p+1)→ Points to 2nd index of an Array.
+    *(p+2)→ Points to 3rd index of an Array.
+    ....etc.
+
+For 3D Array :
+
+    int a[2][2][2] = {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};
+    int *p = (int *)a;
+    
+    Then:
+    *p → Points to first index of an array. 
+    *(p+0)→ Also points to first index of an array.
+    *(p+1)→ Points to 2nd index of an Array.
+    *(p+2)→ Points to 3rd index of an Array.
+    ....etc.
+
+ Hence this proves the memory which stores data value of Array are adjacent, irrespective of their dimension change .
+    
+```
+
+</ul>
+
+<ul>
+<h3>B. Iteration to fetch Constant Values of Arrays(<i>Here used for loop only same for other loops</i>).</h3>
+</ul>
+
+</ul>
 
 
