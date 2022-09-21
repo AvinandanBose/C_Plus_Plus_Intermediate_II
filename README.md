@@ -495,7 +495,7 @@ int func(int a ,  int i)
 
 <h1> Pointers in Arrays </h1>
 <ul>
-<h3>A. Pointers to fetch Constant Values of Arrays.</h3>
+<h3>A. Pointers to fetch Constant Values of Arrays.(Assigning Pointer to Array)</h3>
 <ul>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray.cpp"> Accessing Constant Elements of 1D Array [Through Pointers]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_1.cpp"> Accessing Constant Elements of 2D Array [Through Pointers]</a> </strong></li>
@@ -551,7 +551,15 @@ For 3D Array :
 </ul>
 
 <ul>
-<h3>B. Iteration to fetch Constant Values of Arrays(<i>Here used for loop only same for other loops</i>).</h3>
+<h3>B. Pointers to fetch Constant Values of Arrays.(Without Assigning Pointer to Array)</h3>
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_3.cpp"> Accessing Constant Elements of 1D Array (Without Assigning Pointer to Array) [Through Pointers]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_4.cpp"> Accessing Constant Elements of 2D Array (Without Assigning Pointer to Array) [Through Pointers]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_5.cpp"> Accessing Constant Elements of 3D Array (Without Assigning Pointer to Array) [Through Pointers]</a> </strong></li>
+</ul>
+</ul>
+<ul>
+<h3>C. Iteration to fetch Constant Values of Arrays(<i>Here used for loop only same for other loops</i>).</h3>
 </ul>
 
 </ul>
