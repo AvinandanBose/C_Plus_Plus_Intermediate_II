@@ -543,7 +543,8 @@ For 3D Array :
     *(p+2)→ Points to 3rd index of an Array.
     ....etc.
 
- Hence this proves the memory which stores data value of Array are adjacent, irrespective of their dimension change .
+ Hence this proves the memory which stores data value of Array are adjacent, 
+ irrespective of their dimension change .
     
 ```
 
