@@ -602,6 +602,186 @@ For 3D Array :
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_6.cpp"> Accessing Constant Elements of 1D Array (Assigning Pointer to Array Using For Loop) [Through Pointers]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_7.cpp"> Accessing Constant Elements of 2D Array (Assigning Pointer to Array Using For Loop) [Through Pointers]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_8.cpp"> Accessing Constant Elements of 3D Array (Assigning Pointer to Array Using For Loop) [Through Pointers]</a> </strong></li>
+<h3> <ins><i>Note:</i></ins> </h3>
+
+```Syntax
+
+For 1D Array :
+
+    int a[5] = {1,2,3,4,5};
+    int *p = a;
+    
+    Then:
+    
+   for(int i=0;i<5;i++){
+       cout << *(p+i) << endl;
+   }
+   
+   Note: Here we can write it as *(p+i*1) as columns in a row is single .
+   
+   We know ,Integer's address size is 4 bytes each (for 64 bits)
+   _________________________________
+   |1     | 2   | 3   | 4   | 5    |
+   |3000  |3004 |3008 |3012 | 3016 |
+   -----------------------------------
+   So, p holdds the 1st address of the array i.e. arr[0][0] = 3000;
+   
+   Now, 
+   
+   When i = 0 : 
+        *(p+0) = *(3000+0) = *(3000) = 1
+        
+   When i = 1 : 
+        *(p+1) = *(3000+4 bytes) = *(3004) = 2
+        
+   When i = 2 :
+        *(p+2) = *(3000+4 bytes + 4 bytes) = *(3008) = 3
+        
+    When i = 3 :
+        *(p+3) = *(3000+4 bytes + 4 bytes + 4 bytes) = *(3012) = 4
+        
+    When i = 4 :
+        *(p+4) = *(3000+4 bytes + 4 bytes + 4 bytes + 4 bytes) = *(3016) = 5
+         
+  → We are iterating between each address through 'i' variable.
+  
+For 2D Array :
+
+    int a[2][2] = {{1, 2}, {3, 4}};
+    int *p = (int *)a;
+    Then:
+     for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
+            cout << *(p + i * 2 + j) << endl;
+        }
+    }
+    
+  Note: Here 2 refers to no. of columns in a row , i.e. Here 2 columns hence i*2 . 
+  And j variable iterate between each addresses of columns. 
+  
+  So, if we consider i =0 and j =0  , p will point to : *(p+ 0*2 + 0  ) = *(p+ 0 + 0 ) i.e. arr[0][0].
+  Similarly : *(p+ 0*2 + 1  ) = *( p+ 0 + 1 ), i.e. arr[0][1]
+                *(p+ 1*2  + 0) = *( p+ 2 + 0 ) , i.e. arr[1][0]
+                *(p + 1*2 + 1) = *( p+ 2 + 1 )  i.e.  arr[1][1]
+    
+More Specifically :(Integer , address size is 4 bytes each (for 64 bits) )
+_______________
+| 1   |   2  |
+|3000 | 3004 |
+--------------
+|  3  |   4  |
+|3008 | 3012 |   
+______________
+
+So, we know how Arithmetic addition occurs,
+As : int *p = (int *) arr ; Where arr[2][2] = {{1, 2}, {3, 4}};
+Which means p holds the 1st address of arr i.e. arr[0][0] = 3000
+Hence if we makes its output : cout << *p << endl ; it will give us 1;
+When *(p+0+0) => *(3000 + 0 + 0 )= *(3000) = arr[0][0] = 1
+When *(p+0+1) => *(3000 + 0 + 1 )= *(3000 + 0 + 4 bytes) = *(3004) =>arr[0][1] = 2
+When *(p+2+0) => *(3000 + 2 + 0 )= *(3000 + 4 bytes + 4 bytes+ 0) = *(3008) =>arr[1][0] = 3
+When *(p+2+1) => *(3000 + 2 + 1 )= *(3000 + 4 bytes + 4 bytes + 4 bytes) = *(3012) =>arr[1][1] = 4
+
+For 3D Array :
+
+    int a[2][2][2] = {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};
+    int *p = (int *)a;
+    
+    Then:
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
+            for (int k = 0; k < 2; k++)
+            {
+                cout << *(p + i * 4 + j * 2 + k) << endl;
+            }
+        }
+    }
+Here we can tell that 4 is rows * columns i.e. 2 * 2 i.e. Each page has 2 columns in each 2 rows , 
+Hence i*rows*columns i.e. i*2*2 = i*4 (Here). Next we will access specific 2 columns in each rows , 
+Hence j * columns (j*2 here). And to iterate between those addresses of columns we need 'k' . 
+
+We can represent the same as :
+
+Page : 1
+_______________           
+| 1   |   2  |
+|3000 | 3004 |
+--------------
+|  3  |   4  |
+|3008 | 3012 |   
+______________
+
+Page : 2
+_______________
+| 5   |   6  |
+|3016 | 3020 |
+--------------
+|  7  |   8  |
+|3024 | 3028 |   
+______________
+
+Then in Same Way : 
+p holds the 1st address of arr i.e. arr[0][0][0] = 3000
+
+*(p + 0*4 + 0*2 + 0) = *(p + 0 + 0 + 0) = *(3000 + 0 + 0 + 0) = *(3000)  = 1
+*(p + 0*4 + 0*2 + 1) = *(p + 0 + 0 + 1) = *(3000 + 0 + 0 + 4) = *(3004)  = 2
+*(p + 0*4 + 1*2 + 0) = *(p + 0 + 2 + 0) = *(3000 + 0 + 4 + 4 + 0) = *(3008)  = 3
+*(p + 0*4 + 1*2 + 1) = *(p + 0 + 2 + 1) = *(3000 + 0 + 4 + 4 + 4 ) = *(3012)   = 4
+*(p + 1*4 + 0*2 + 0) = *(p + 4 + 0 + 0) = *(3000 + 4 + 4 + 4 + 4 +0 + 0 ) = *(3016) = 5
+*(p + 1*4 + 0*2 + 1) = *(p + 4 + 0 + 1)  = *(3000 + 4 + 4 + 4 + 4 +0 + 4 ) = *(3020)  = 6
+*(p + 1*4 + 1*2 + 0) = *(p + 4 + 2 + 0)  = *(3000 + 4 + 4 + 4 + 4 +4 + 4 + 0 ) = *(3024) = 7
+*(p + 1*4 + 1*2 + 1) = *(p + 4 + 2 + 1)  = *(3000 + 4 + 4 + 4 + 4 +4 + 4 + 4 ) = *(3028)  = 8
+
+Therefore if we summarize for user input :
+
+For 1D :
+
+So if size = m (user input)
+
+      for( int i = 0 ; i < m ; i++){
+          cin >> /cout << *(p+i) << endl;
+      }
+      
+For 2D :
+
+if rows = m (user input) and columns = n (user input)
+
+ for (int i = 0; i < m; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            cin >> /cout <<  *(p + i * n + j) << endl;
+        }
+    }
+    
+ i.e. Pointer will point to each column of its corresponding row to take input 
+ and generate its corresponding output .
+    
+    
+For 3D:
+
+if page = p (user input) ,rows = m (user input) and columns = n (user input)
+
+for (int i = 0; i < p; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+          for(int k =0 ; k < n ; k++)
+          {
+          cin >> /cout <<  *(p + i *m*n + j*n + k) << endl;
+          
+          }
+
+        }
+    }
+
+    
+```
+
 </ul>
 </ul>
 </ul>
