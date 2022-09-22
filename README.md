@@ -595,9 +595,9 @@ For 3D Array :
 </ul>
 </ul>
 <ul>
-<h3>C. Iteration to fetch Constant Values of Arrays(<i>Here used for loop only same for other loops</i>).</h3>
+<h2>C. Iteration to fetch Constant Values of Arrays(<i>Here used for loop only same for other loops</i>).</h2>
 <ul>
-<h3>A. Assigning Pointer to Array</h3>
+<h2>A. Assigning Pointer to Array</h2>
 <ul>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_6.cpp"> Accessing Constant Elements of 1D Array (Assigning Pointer to Array Using For Loop) [Through Pointers]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_7.cpp"> Accessing Constant Elements of 2D Array (Assigning Pointer to Array Using For Loop) [Through Pointers]</a> </strong></li>
