@@ -598,6 +598,11 @@ For 3D Array :
 <h3>C. Iteration to fetch Constant Values of Arrays(<i>Here used for loop only same for other loops</i>).</h3>
 <ul>
 <h3>A. Assigning Pointer to Array</h3>
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_7.cpp"> Accessing Constant Elements of 1D Array (Assigning Pointer to Array Using For Loop) [Through Pointers]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_8.cpp"> Accessing Constant Elements of 2D Array (Assigning Pointer to Array Using For Loop) [Through Pointers]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/func_array_9.cpp"> Accessing Constant Elements of 3D Array (Assigning Pointer to Array Using For Loop) [Through Pointers]</a> </strong></li>
+</ul>
 </ul>
 </ul>
 
