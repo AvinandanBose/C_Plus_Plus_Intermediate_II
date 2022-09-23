@@ -494,6 +494,7 @@ int func(int a ,  int i)
 <h3>This is the basic difference between loop and recursive function. </h3>
 
 <h1> Pointers in Arrays </h1>
+<h2> Accessing Array of Constants Through Pointers</h2> 
 <ul>
 <h3>A. Pointers to fetch Constant Values of Arrays.(Assigning Pointer to Array)</h3>
 <ul>
@@ -960,7 +961,7 @@ for (int i = 0; i < p; i++)
 </ul>
 </ul>
 </ul>
-
+<h2> Accessing Non-Constant Arrays(Assigned User Defined Sizes and Elemenets) Through Pointers . </h2>
 </ul>
 
 
