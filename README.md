@@ -962,6 +962,20 @@ for (int i = 0; i < p; i++)
 </ul>
 </ul>
 <h2> Accessing Non-Constant Arrays(Assigned User Defined Sizes and Elements) Through Pointers . </h2>
+<ul>
+<h2>A. Assigning Pointer to Array</h2>
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_12.cpp">1. Accessing User Defined Elements of 1D Array (Assigning Pointer to Array ) [With User Defined Size and Elements]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_13.cpp">2. Accessing User Defined Elements of 2D Array (Assigning Pointer to Array ) [With User Defined Size and Elements]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_14.cpp">3. Accessing User Defined Elements of 3D Array (Assigning Pointer to Array ) [With User Defined Size and Elements]</a> </strong></li>
+</ul>
+<h2>B. Without Assigning Pointer to Array</h2>
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_15.cpp">1. Accessing User Defined Elements of 1D Array (Without Assigning Pointer to Array ) [With User Defined Size and Elements]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_16.cpp">2. Accessing User Defined Elements of 2D Array (Without Assigning Pointer to Array ) [With User Defined Size and Elements]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_17.cpp">3. Accessing User Defined Elements of 3D Array (Without Assigning Pointer to Array ) [With User Defined Size and Elements]</a> </strong></li>
+</ul>
+</ul>
 </ul>
 
 
