@@ -787,7 +787,7 @@ for (int i = 0; i < p; i++)
 <ul>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_9.cpp"> Accessing Constant Elements of 1D Array (Without Assigning Pointer to Array Using For Loop) [Through Pointers]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_10.cpp"> Accessing Constant Elements of 2D Array (Without Assigning Pointer to Array Using For Loop) [Through Pointers]</a> </strong></li>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_11.cpp"> Accessing Constant Elements of 3D Array (Assigning Pointer to Array Using For Loop) [Through Pointers]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_11.cpp"> Accessing Constant Elements of 3D Array (Withoutc Assigning Pointer to Array Using For Loop) [Through Pointers]</a> </strong></li>
 </ul>
 </ul>
 </ul>
