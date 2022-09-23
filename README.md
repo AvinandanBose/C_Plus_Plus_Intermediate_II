@@ -624,7 +624,7 @@ For 1D Array :
    |1     | 2   | 3   | 4   | 5    |
    |3000  |3004 |3008 |3012 | 3016 |
    -----------------------------------
-   So, p holdds the 1st address of the array i.e. arr[0][0] = 3000;
+   So, p holds the 1st address of the array i.e. arr[0][0] = 3000;
    
    Now, 
    
