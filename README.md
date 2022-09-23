@@ -788,6 +788,175 @@ for (int i = 0; i < p; i++)
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_9.cpp"> Accessing Constant Elements of 1D Array (Without Assigning Pointer to Array Using For Loop) [Through Pointers]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_10.cpp"> Accessing Constant Elements of 2D Array (Without Assigning Pointer to Array Using For Loop) [Through Pointers]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_11.cpp"> Accessing Constant Elements of 3D Array (Withoutc Assigning Pointer to Array Using For Loop) [Through Pointers]</a> </strong></li>
+
+<h3> <ins><i>Note:</i></ins> </h3>
+
+```Syntax
+
+For 1D Array :
+
+    int a[5] = {1,2,3,4,5};
+  
+    Then:
+    
+   for(int i=0;i<5;i++){
+       cout << *(a+i) << endl;
+   }
+  
+   We know ,Integer's address size is 4 bytes each (for 64 bits)
+   _________________________________
+   |1     | 2   | 3   | 4   | 5    |
+   |3000  |3004 |3008 |3012 | 3016 |
+   -----------------------------------
+  
+   Now, 
+   
+   When i = 0 : 
+        *(a+0) = *(3000+0) = *(3000) = 1
+        
+   When i = 1 : 
+        *(a+1) = *(3000+4 bytes) = *(3004) = 2
+        
+   When i = 2 :
+        *(a+2) = *(3000+4 bytes + 4 bytes) = *(3008) = 3
+        
+    When i = 3 :
+        *(a+3) = *(3000+4 bytes + 4 bytes + 4 bytes) = *(3012) = 4
+        
+    When i = 4 :
+        *(a+4) = *(3000+4 bytes + 4 bytes + 4 bytes + 4 bytes) = *(3016) = 5
+         
+  → We are iterating between each address through 'i' variable.
+  
+For 2D Array :
+
+    int a[2][2] = {{1, 2}, {3, 4}};
+   
+    Then:
+     for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
+            cout << *(*(a + i) + j) << endl;
+        }
+    }
+    
+  Note: *(a+i)→prioritizing and pointing to the row, and  *(*(a + i) + j) →  pointing to each column of each row.
+    
+More Specifically :(Integer , address size is 4 bytes each (for 64 bits) )
+_______________
+| 1   |   2  |
+|3000 | 3004 |
+--------------
+|  3  |   4  |
+|3008 | 3012 |   
+______________
+
+So, we know how Arithmetic addition occurs,
+when i =0 :
+      j = 0 : 
+        *(*(a + i) + j)   →   *(*(a+0)+0) →  *(*(3000 + 0) + 0 )  = arr[0][0] = 1
+        
+       j = 1:
+           *(*(a + i) + j)  →  *(*(a+0)+1) →  *(*(3000 + 0) + 1 ) => *(3000 + 1 )= *(3000 + 4 bytes) = *(3004) =>arr[0][1] = 2
+           
+when i = 1:
+        j =0 :
+          *(*(a + i) + j)  →  *(*(a+1)+0) →  *(*(3000 + 1) + 0 ) => *(3000 + (4 bytes+ 4 bytes)+0)=> *(3008) =>arr[1][0] = 3
+          
+        j = 1 :
+            *(*(a + i) + j) →  *(*(a+1)+1) → *(*(3000 + 1) + 1 ) => *(3000 + (4 bytes+ 4 bytes)+ 4 bytes) = *(3012) = 4
+  
+  
+For 3D Array :
+
+    int a[2][2][2] = {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};
+  
+    Then:
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
+            for (int k = 0; k < 2; k++)
+            {
+                cout << *(*(*(a + i) + j) + k) << endl;
+            }
+        }
+    } 
+
+We can represent the same as :
+
+Page : 1
+_______________           
+| 1   |   2  |
+|3000 | 3004 |
+--------------
+|  3  |   4  |
+|3008 | 3012 |   
+______________
+
+Page : 2
+_______________
+| 5   |   6  |
+|3016 | 3020 |
+--------------
+|  7  |   8  |
+|3024 | 3028 |   
+______________
+
+Then in Same Way : 
+
+*(*(*(a + i) + j) + k) = *(*(*(3000  + 0) + 0) + 0) = *(3000 + 0 + 0 + 0) =1
+*(*(*(a + i) + j) + k) = *(*(*(3000  + 0) + 0) + 1) =  *(3000 + 0 + 0 + 4 bytes) = *(3004) = 2
+*(*(*(a + i) + j) + k) = *(*(*(3000  + 0) + 1) + 0) = *(3000 + 0 + (4 bytes + 4 bytes )+ 0) = *(3000 + 8) = *(3008) = 3                           
+*(*(*(a + i) + j) + k) = *(*(*(3000  + 0) + 1) + 1) = *(3000 + 0 + (4 bytes + 4 bytes )+ 4 ) = *(3012) = 4 
+*(*(*(a + i) + j) + k) = *(*(*(3000  + 1) + 0) + 0) = *(3000 + (4 + 4 + 4 + 4 )+0 + 0 ) = *(3016) = 5
+*(*(*(a + i) + j) + k) = *(*(*(3000  + 1) + 0) + 1) = *(3000 + (4 + 4 + 4 + 4 )+0 + 4 bytes ) = *(3020) = 6
+*(*(*(a + i) + j) + k) = *(*(*(3000  + 1) + 1) + 0) = *(3000 + (4 + 4 + 4 + 4 )+ (4 bytes + 4 bytes) + 0 ) = *(3024) = 7
+*(*(*(a + i) + j) + k) = *(*(*(3000  + 1) + 1) + 1) = *(3000 + (4 + 4 + 4 + 4 )+ (4 bytes + 4 bytes) + 4 bytes ) = *(3028) = 8
+
+Therefore if we summarize for user input :
+
+For 1D :
+
+So if size = m (user input)
+
+      for( int i = 0 ; i < m ; i++){
+          cin >> /cout << *(a+i) << endl;
+      }
+      
+For 2D :
+
+if rows = m (user input) and columns = n (user input)
+
+ for (int i = 0; i < m; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            cin >> /cout <<  *(*(a + i) + j) << endl;
+        }
+    }
+   
+   
+For 3D:
+
+if page = p (user input) ,rows = m (user input) and columns = n (user input)
+
+for (int i = 0; i < p; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+          for(int k =0 ; k < n ; k++)
+          {
+          cin >> /cout << *(*(*(a + i) + j) + k) << endl;
+          
+          }
+
+        }
+    }
+
+    
+```
 </ul>
 </ul>
 </ul>
