@@ -961,7 +961,7 @@ for (int i = 0; i < p; i++)
 </ul>
 </ul>
 </ul>
-<h2> Accessing Non-Constant Arrays(Assigned User Defined Sizes and Elemenets) Through Pointers . </h2>
+<h2> Accessing Non-Constant Arrays(Assigned User Defined Sizes and Elements) Through Pointers . </h2>
 </ul>
 
 
