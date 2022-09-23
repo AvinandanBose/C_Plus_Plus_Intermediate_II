@@ -976,6 +976,7 @@ for (int i = 0; i < p; i++)
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_17.cpp">3. Accessing User Defined Elements of 3D Array (Without Assigning Pointer to Array ) [With User Defined Size and Elements]</a> </strong></li>
 </ul>
 </ul>
+<h2> How pointers eliminates the limitation of declaring constant sizes of Multi-Dimensional Arrays? (2D , 3D ....etc.)
 </ul>
 
 
