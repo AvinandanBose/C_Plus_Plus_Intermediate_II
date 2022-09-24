@@ -1018,7 +1018,9 @@ int <func_name>(int *p, int size)
     {
         cin >> / cout << *(p + i);
     }
-    return 0;
+    
+    //Return Type
+    return p[size];
 }
 
 For 2D Array: 
@@ -1048,7 +1050,9 @@ int <func_name>(int *p, int rows, int cols)
             cin >> / cout << *(p + i * cols + j);
         }
     }
-    return 0;
+    
+    //Return Type
+    return p[rows*cols];
 }
 
 For 3D Array: 
@@ -1081,7 +1085,9 @@ int <func_name>(int *p, int pg, int row, int col)
             }
         }
     }
-    return 0;
+    
+    //Return Type
+    return p[pg*row*col];
 }
 
 ```
