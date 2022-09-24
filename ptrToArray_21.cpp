@@ -31,6 +31,7 @@ int input(int *p, int pg, int row, int col)
             }
         }
     }
+    return p[pg*row*col];
 }
 void display(int *p, int pg, int row, int col)
 {

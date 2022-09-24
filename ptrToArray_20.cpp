@@ -26,6 +26,7 @@ int input(int *p, int m, int n)
             cin >> *(p + i * n + j);
         }
     }
+    return p[m*n];
 }
 void display(int *p, int m, int n)
 {
