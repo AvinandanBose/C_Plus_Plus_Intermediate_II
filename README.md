@@ -1039,15 +1039,16 @@ int main(){
 
 //Function Definition
 
-int <func_name>(int *p, int m, int n)
+int <func_name>(int *p, int rows, int cols)
 {
-    for (int i = 0; i < m; i++)
+    for (int i = 0; i < rows; i++)
     {
-        for (int j = 0; j < n; j++)
+        for (int j = 0; j < cols; j++)
         { 
-            cin >> / cout << *(p + i * n + j);
+            cin >> / cout << *(p + i * cols + j);
         }
     }
+    return 0;
 }
 
 For 3D Array: 
@@ -1076,11 +1077,11 @@ int <func_name>(int *p, int pg, int row, int col)
         {
             for (int k = 0; k < col; k++)
             {
-             
                 cin >> / cout << *(p + i * row * col + j * col + k);
             }
         }
     }
+    return 0;
 }
 
 ```
