@@ -978,6 +978,14 @@ for (int i = 0; i < p; i++)
 </ul>
 <h2> How pointers eliminates the limitation of declaring constant sizes of Multi-Dimensional Arrays in Function? (2D , 3D ....etc.) - Pointers and Arrays in Functions</h2>
 <ul>
+<h2>A. Without Assigning Pointer to Array</h2>
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_22.cpp">1. Accessing Elements of 1D Array Using Function [Through Pointers] [Without Assigning Pointers To Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_23.cpp">2. Accessing Elements of 2D Array Using Function [Through Pointers] [Without Assigning Pointers To Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_24.cpp">3. Accessing Elements of 3D Array Using Function [Through Pointers] [Without Assigning Pointers To Array]</a> </strong></li>
+<h3> <ins><i>Note:</i></ins> <i> Without assigning pointers to Array but accessing elements through pointers doesnot eliminates the predefined sizes of Multidimenstional Array i.e. we have mention sizes of 2D , 3D etc. arrays before hand for input , workings and output. </i> </h3>
+</ul>
+<h2>B. Assigning Pointer to Array</h2>
 </ul>
 </ul>
 
