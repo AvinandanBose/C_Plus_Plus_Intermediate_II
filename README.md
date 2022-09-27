@@ -1094,6 +1094,21 @@ int <func_name>(int *p, int pg, int row, int col)
 
 </ul>
 </ul>
+<h1> Pointer To Pointer on Arrays </h1>
+<ul>
+<h2>A. Pointer To Pointer on Arrays</h2>
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_25.cpp">1. Accessing Elements of 1D Array [Using Pointer to Pointers in Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_26.cpp">2. Accessing Elements of 2D Array [Using Pointer to Pointers in Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_27.cpp">3. Accessing Elements of 3D Array [Using Pointer to Pointers in Array]</a> </strong></li>
+</ul>
+<h2>B. Pointer To Pointer on Arrays[on Functions]</h2>
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_28.cpp">1. Accessing Elements of 1D Array [Using Pointer to Pointers in Array][over Functions]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_29.cpp">2. Accessing Elements of 2D Array [Using Pointer to Pointers in Array][over Functions]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_30.cpp">3. Accessing Elements of 3D Array [Using Pointer to Pointers in Array][over Functions]</a> </strong></li>
+</ul>
+</ul>
 </ul>
 
 
