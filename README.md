@@ -1119,6 +1119,22 @@ Note: int (*data)[10] → It defines array of 10 elements.
 ```
 <ul>
 <h2>A. Pointers To An Array Of 'n' Elements</h2>
+<ul>
+<h3>a. With Pointer Arithmetic</h3>
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_31.cpp">1. Accessing Elements of 1D Array [Using Pointers To An Array Of 'n' Elements][With Pointer Arithmetic]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_32.cpp">2. Accessing Elements of 2D Array [Using Pointers To An Array Of 'n' Elements][With Pointer Arithmetic]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_33.cpp">3. Accessing Elements of 3D Array [Using Pointers To An Array Of 'n' Elements][With Pointer Arithmetic]</a> </strong></li>
+</ul>
+</ul>
+<ul>
+<h3>b. Without Pointer Arithmetic</h3>
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_34.cpp">1. Accessing Elements of 1D Array [Using Pointers To An Array Of 'n' Elements][Without Pointer Arithmetic]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_35.cpp">2. Accessing Elements of 2D Array [Using Pointers To An Array Of 'n' Elements][Without Pointer Arithmetic]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_36.cpp">3. Accessing Elements of 3D Array [Using Pointers To An Array Of 'n' Elements][Without Pointer Arithmetic]</a> </strong></li>
+</ul>
+</ul>
 </ul>
 <ul>
 <h2>B. Pointers To An Array Of 'n' Elements [On Functions]</h2>
