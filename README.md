@@ -1109,6 +1109,21 @@ int <func_name>(int *p, int pg, int row, int col)
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_30.cpp">3. Accessing Elements of 3D Array [Using Pointer to Pointers in Array][over Functions]</a> </strong></li>
 </ul>
 </ul>
+<h1>Array of Pointers </h1> 
+
+```Syntax
+Syntax: DataType *ArrayName[ARRSIZE]
+
+Note: int *data[10] → It defines array of 10 pointers. 
+
+```
+<ul>
+<h2>A. Array of Pointers</h2>
+</ul>
+<ul>
+<h2>B. Array of Pointers [On Functions]</h2>
+</ul>
+
 </ul>
 
 
