@@ -1114,7 +1114,7 @@ int <func_name>(int *p, int pg, int row, int col)
 ```Syntax
 Syntax: DataType (*ArrayName)[ARRSIZE]
 
-Note: int *data[10] → It defines array of 10 elements. 
+Note: int (*data)[10] → It defines array of 10 elements. 
 
 ```
 <ul>
