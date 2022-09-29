@@ -25,6 +25,7 @@ int input(int a[][10], int m, int n)
             cin >> *(*(a+i)+ j);
         }
     }
+    return *(*(a+m)+n);
 }
 void display(int a[][10], int m, int n)
 {

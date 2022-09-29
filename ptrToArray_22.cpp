@@ -21,7 +21,7 @@ int input(int a[], int size)
         cout << "a[" << i << "]: ";
         cin >> *(a + i);
     }
-    return 0;
+    return *(a + size);
 }
 void display(int a[], int size)
 {

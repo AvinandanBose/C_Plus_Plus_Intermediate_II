@@ -30,6 +30,7 @@ int input(int a[][10][10], int p, int m, int n)
             }
         }
     }
+    return *(*(*(a+p)+m)+n);
 }
 void display(int a[][10][10], int p, int m, int n)
 {
