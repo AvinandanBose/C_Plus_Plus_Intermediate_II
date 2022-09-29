@@ -991,113 +991,6 @@ For 1D Array:
 
 //Function Declaration
 
-int <func_name>(int *, int);
-
-int main(){
-
-    int size;
-    cin >> size;
-    int a[size];
-    
-    //FunctionCall
-    <func_name>(a, size);
-}
-
-//Function Definition
-
-int <func_name>(int *p, int size)
-{
-    for (int i = 0; i < size; i++)
-    {
-        cin >> / cout << *(p + i);
-    }
-    
-    //Return Type
-    return p[size];
-}
-
-For 2D Array: 
-
-//Function Declaration
-
-int <func_name>(int *, int , int );
-
-int main(){
-
-    int m,n;
-    cin >> m >> n;
-    int a[m][n];
-    
-    //FunctionCall
-    <func_name>((int *)a, m,n);
-}
-
-//Function Definition
-
-int <func_name>(int *p, int rows, int cols)
-{
-    for (int i = 0; i < rows; i++)
-    {
-        for (int j = 0; j < cols; j++)
-        { 
-            cin >> / cout << *(p + i * cols + j);
-        }
-    }
-    
-    //Return Type
-    return p[rows*cols];
-}
-
-For 3D Array: 
-
-//Function Declaration
-
-int <func_name>(int *, int , int , int);
-
-int main(){
-
-    int p, m,n;
-    cin >> p >> m >> n;
-    int a[p][m][n];
-    
-    //FunctionCall
-    <func_name>((int *)a, p , m,n);
-}
-
-//Function Definition
-
-int <func_name>(int *p, int pg, int row, int col)
-{
-    for (int i = 0; i < pg; i++)
-    {
-        for (int j = 0; j < row; j++)
-        {
-            for (int k = 0; k < col; k++)
-            {
-                cin >> / cout << *(p + i * row * col + j * col + k);
-            }
-        }
-    }
-    
-    //Return Type
-    return p[pg*row*col];
-}
-
-```
-</ul>
-<h2>B. Assigning Pointer to Array</h2>
-<ul>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_19.cpp">1. Accessing Elements of 1D Array Using Function [Through Pointers] [ Assigning Pointers To Array]</a> </strong></li>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_20.cpp">2. Accessing Elements of 2D Array Using Function [Through Pointers] [ Assigning Pointers To Array]</a> </strong></li>
-<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_21.cpp">3. Accessing Elements of 3D Array Using Function [Through Pointers] [ Assigning Pointers To Array]</a> </strong></li>
-<h3> <ins><i>Note:</i></ins> <i> With assigning pointers to Array and accessing elements through pointers  eliminates the predefined sizes of Multidimenstional Array i.e. we doesnot have to mention sizes of 2D , 3D etc. arrays before hand for input , workings and output. </i> </h3>
-
-```Syntax
-
-For 1D Array: 
-
-//Function Declaration
-
 int <func_name>(int [], int);
 
 int main(){
@@ -1188,6 +1081,115 @@ int <func_name>(int a[][10][10], int pg, int row, int col)
     
     //Return Type
     return *(*(*(a + pg) +row) +col);
+}
+     
+``` 
+     
+</ul>
+<h2>B. Assigning Pointer to Array</h2>
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_19.cpp">1. Accessing Elements of 1D Array Using Function [Through Pointers] [ Assigning Pointers To Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_20.cpp">2. Accessing Elements of 2D Array Using Function [Through Pointers] [ Assigning Pointers To Array]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_21.cpp">3. Accessing Elements of 3D Array Using Function [Through Pointers] [ Assigning Pointers To Array]</a> </strong></li>
+<h3> <ins><i>Note:</i></ins> <i> With assigning pointers to Array and accessing elements through pointers  eliminates the predefined sizes of Multidimenstional Array i.e. we doesnot have to mention sizes of 2D , 3D etc. arrays before hand for input , workings and output. </i> </h3>
+
+
+```Syntax
+
+For 1D Array: 
+
+//Function Declaration
+
+int <func_name>(int *, int);
+
+int main(){
+
+    int size;
+    cin >> size;
+    int a[size];
+    
+    //FunctionCall
+    <func_name>(a, size);
+}
+
+//Function Definition
+
+int <func_name>(int *p, int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        cin >> / cout << *(p + i);
+    }
+    
+    //Return Type
+    return p[size];
+}
+
+For 2D Array: 
+
+//Function Declaration
+
+int <func_name>(int *, int , int );
+
+int main(){
+
+    int m,n;
+    cin >> m >> n;
+    int a[m][n];
+    
+    //FunctionCall
+    <func_name>((int *)a, m,n);
+}
+
+//Function Definition
+
+int <func_name>(int *p, int rows, int cols)
+{
+    for (int i = 0; i < rows; i++)
+    {
+        for (int j = 0; j < cols; j++)
+        { 
+            cin >> / cout << *(p + i * cols + j);
+        }
+    }
+    
+    //Return Type
+    return p[rows*cols];
+}
+
+For 3D Array: 
+
+//Function Declaration
+
+int <func_name>(int *, int , int , int);
+
+int main(){
+
+    int p, m,n;
+    cin >> p >> m >> n;
+    int a[p][m][n];
+    
+    //FunctionCall
+    <func_name>((int *)a, p , m,n);
+}
+
+//Function Definition
+
+int <func_name>(int *p, int pg, int row, int col)
+{
+    for (int i = 0; i < pg; i++)
+    {
+        for (int j = 0; j < row; j++)
+        {
+            for (int k = 0; k < col; k++)
+            {
+                cin >> / cout << *(p + i * row * col + j * col + k);
+            }
+        }
+    }
+    
+    //Return Type
+    return p[pg*row*col];
 }
 
 ```
