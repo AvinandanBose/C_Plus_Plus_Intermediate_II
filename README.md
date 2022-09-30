@@ -1261,6 +1261,18 @@ Note: int (*data)[10] → It defines array of 10 elements.
 <h2> Some examples on Pointers over Arrays (in Functions and Recursions)</h2>
 <ul>
 <h3> A. Some examples on Pointers over Arrays (in Functions)</h2>
+<ul>
+<h3> 1. Assigning Pointers to Arrays</h2>
+<ul>
+<h3> 1.a. 1D (One Dimensional )Array</h2>
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_1.cpp">1.Addition of Every Elements of 1-D Array [Example 1]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_2.cpp">2.Largest Element in an 1-D Array[Example 2]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_3.cpp">3. Addition of Two 1-D Arrays[Example 3]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_4.cpp">4. Multiplication of Two 1-D Arrays [Example 4]</a> </strong></li>
+</ul>
+</ul>
+</ul>
 </ul>
 <ul>
 <h3> B. Some examples on Pointers over Arrays (in Recursions)</h2>
