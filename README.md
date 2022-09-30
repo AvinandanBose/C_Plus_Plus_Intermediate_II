@@ -1248,6 +1248,24 @@ Note: int (*data)[10] → It defines array of 10 elements.
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_39.cpp">3. Accessing Elements of 3D Array On Functions [Using Pointers To An Array Of 'n' Elements][With Pointer Arithmetic]</a> </strong></li>
 </ul>
 </ul>
+<ul>
+<h3>a. With Pointer Arithmetic </h3>
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_40.cpp">1. Accessing Elements of 1D Array On Functions [Using Pointers To An Array Of 'n' Elements][Without Pointer Arithmetic]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_41.cpp">2. Accessing Elements of 2D Array On Functions [Using Pointers To An Array Of 'n' Elements][Without Pointer Arithmetic]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptrToArray_42.cpp">3. Accessing Elements of 3D Array On Functions [Using Pointers To An Array Of 'n' Elements][Without Pointer Arithmetic]</a> </strong></li>
+</ul>
+</ul>
+</ul>
+<ul>
+<h2> Some examples on Pointers over Arrays (in Functions and Recursions)</h2>
+<ul>
+<h3> A. Some examples on Pointers over Arrays (in Functions)</h2>
+</ul>
+<ul>
+<h3> B. Some examples on Pointers over Arrays (in Recursions)</h2>
+</ul>
+
 </ul>
 
 </ul>
