@@ -1271,7 +1271,15 @@ Note: int (*data)[10] → It defines array of 10 elements.
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_3.cpp">3. Addition of Two 1-D Arrays[Example 3]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_4.cpp">4. Multiplication of Two 1-D Arrays [Example 4]</a> </strong></li>
 </ul>
+<h3> 1.b. 2D (Two Dimensional )Array</h2>
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_5.cpp">1.Multiplication of 2D Arrays [Example 1]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_6.cpp">2. Multiplication of Column Vector x Row Vector [(m x 1) x (1x n)] producing m x n matrix [Example 2]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_7.cpp">3.Addition of 2D Matrix[Example 3]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_8.cpp">4.Subtraction of 2D Matrix [Example 4]</a> </strong></li>
 </ul>
+</ul>
+
 </ul>
 </ul>
 <ul>
