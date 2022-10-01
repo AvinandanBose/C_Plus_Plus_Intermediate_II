@@ -2,7 +2,7 @@
 using namespace std;
 int input(int [], int);
 void display(int [], int);
-int sum(int *, int);
+int sum(int [], int);
 int main()
 {
     int n;
