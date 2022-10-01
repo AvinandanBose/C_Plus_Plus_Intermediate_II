@@ -1279,7 +1279,7 @@ Note: int (*data)[10] → It defines array of 10 elements.
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_8.cpp">4.Subtraction of 2D Matrix [Example 4]</a> </strong></li>
 </ul>
 </ul>
-<h3> 2. Assigning without Pointer</h3>
+<h3> 2. Without Assigning Pointer To Arrays</h3>
 <ul>
 <h3> 2.a. 1D ( One Dimensional )Array</h3>
 <ul>
