@@ -1260,18 +1260,18 @@ Note: int (*data)[10] → It defines array of 10 elements.
 <ul>
 <h2> Some examples on Pointers over Arrays (in Functions and Recursions)</h2>
 <ul>
-<h3> A. Some examples on Pointers over Arrays (in Functions)</h2>
+<h3> A. Some examples on Pointers over Arrays (in Functions)</h3>
 <ul>
-<h3> 1. Assigning Pointers to Arrays</h2>
+<h3> 1. Assigning Pointers to Arrays</h3>
 <ul>
-<h3> 1.a. 1D (One Dimensional )Array</h2>
+<h3> 1.a. 1D ( One Dimensional )Array</h3>
 <ul>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_1.cpp">1.Addition of Every Elements of 1-D Array [Example 1]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_2.cpp">2.Largest Element in an 1-D Array[Example 2]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_3.cpp">3. Addition of Two 1-D Arrays[Example 3]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_4.cpp">4. Multiplication of Two 1-D Arrays [Example 4]</a> </strong></li>
 </ul>
-<h3> 1.b. 2D (Two Dimensional )Array</h2>
+<h3> 1.b. 2D (Two Dimensional)Array</h3>
 <ul>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_5.cpp">1.Multiplication of 2D Arrays [Example 1]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_6.cpp">2. Multiplication of Column Vector x Row Vector [(m x 1) x (1x n)] producing m x n matrix [Example 2]</a> </strong></li>
@@ -1279,7 +1279,15 @@ Note: int (*data)[10] → It defines array of 10 elements.
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_8.cpp">4.Subtraction of 2D Matrix [Example 4]</a> </strong></li>
 </ul>
 </ul>
-
+<h3> 2. Assigning without Pointer</h3>
+<ul>
+<h3> 2.a. 1D ( One Dimensional )Array</h3>
+<ul>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_9.cpp">1.Addition of Every Elements of 1-D Array [Example 1]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_10.cpp">2.Largest Element in an 1-D Array[Example 2]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_11.cpp">3. Addition of Two 1-D Arrays[Example 3]</a> </strong></li>
+<li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_12.cpp">4. Multiplication of Two 1-D Arrays [Example 4]</a> </strong></li>
+</ul>
 </ul>
 </ul>
 <ul>
