@@ -1305,6 +1305,7 @@ Note: int (*data)[10] → It defines array of 10 elements.
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_19.cpp">3. Addition of Two 1-D Arrays[Example 3]</a> </strong></li>
 <li><strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_II/blob/main/ptr_func_eg_20.cpp">4. Multiplication of Two 1-D Arrays [Example 4]</a> </strong></li>
 </ul>
+<h3> 3.b 2D (Two Dimensional)Array</h3>
 </ul>
 </ul>
 <ul>
