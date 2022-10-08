@@ -1317,7 +1317,7 @@ Note: int (*data)[10] → It defines array of 10 elements.
 <ul>
 <h3> B. Some examples on Pointers over Arrays (in Recursions)</h2>
 </ul>
-<h3> Will be Continued Soon..... </h3>
+<h1> Will be Continued Soon..... </h1>
 </ul>
 
 </ul>
